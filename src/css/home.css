@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #CCCCCC;
+}
+
+
+header {
+  display: flex;
+  background: ffff;
+  margin-top: 21px;
+  margin-left: 14px;
+  margin-right: 18px;
+
+}
+
+header img {
+  width: 37px;
+  height: 37px;
+}
+
+header div {
+  width: 37px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-left: 270px;
+  margin-top: 2px;
+}
+
+.barra1 {
+  background: #7F60F9;
+  width: 2px;
+  height: 353px;
+  margin-left: 356px;
+  margin-right: 19px;
+  margin-top: 23px;
+}
+
+.barra2 {
+  background: #7F60F9;
+  width: 2px;
+  height: 345px;
+  margin-top: -305px;
+  margin-left: 13px;
+  margin-right: 361px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.LogoInicial {
+  width: 150px;
+  margin-top: -305px;
+  margin-left: 5px;
+}
+
+.Robo {
+  width: 122.8px;
+  height: 156px;
+  margin-top: -62px;
+  margin-inline: 207px;
+  margin-block-start: -115px;
+}
+
+main section{
+  color: #000;
+  margin-top: -58px;
+  margin-left: 19px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 200;
+  line-height: 10px;
+  width: 183px;
+  height: 11px;
+}
+
+.linkinho {
+  border-radius: 40px;
+  border: 3px solid #7F60F9;
+  height: 25px;
+  width: 80px;
+  margin-top: 23.5px;
+  margin-left: 33px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight:68px;
+}
+
+main h1 {
+  color: #7F60F9;
+  margin-top: 90px;
+  margin-left: 34px;
+  width: 130px;
+  height: 84px;
+  flex-shrink: 0;
+  font-family: inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.publico {
+  border: 3px solid #7F60F9;
+  background: rgba(217, 217, 217, 0.00);
+  width: 183px;
+  height: 192px;
+  border-radius: 35px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.publico p{
+  display: flex;
+  text-align: left;
+  margin-top: 13px;
+  margin-left: 18px;
+  width: 162px;
+  height: 150px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logoFinal {
+  width: 118px;
+  height: 130px;
+  margin-top: -148px;
+  margin-inline: 217px;
+}
+
