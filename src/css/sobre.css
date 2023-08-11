@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #CCCCCC;
+}
+
+header {
+    display: flex;
+    background: ffff;
+    margin-top: 21px;
+    margin-left: 14px;
+    margin-right: 18px;
+  }
+  
+  header img {
+    width: 37px;
+    height: 37px;
+  }
+  
+  header div {
+    width: 37px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: 270px;
+    margin-top: 2px;
+  }
