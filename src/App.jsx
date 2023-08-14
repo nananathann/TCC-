@@ -3,6 +3,7 @@ import './css/home.css'
 import Barra from './images/Barramenu.png'
 import robokids from './images/robokids.png'
 import robo from './images/robo-12.png'
+import { Link } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -36,7 +37,7 @@ function App() {
     </section>
 
     <div className="linkinho">
-      <a href="">Objetivos</a>
+      <Link to="/objetivos">Objetivos</Link>
       </div>
 
     <h1> Público <br/>Alvo</h1>
