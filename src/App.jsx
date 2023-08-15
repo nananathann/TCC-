@@ -52,7 +52,7 @@ function App() {
       <div className="logoFinal">
         <img src={robokids} alt="robokids" />
 
-        <a href="/isobre.html">sobre</a>
+        <Link to="/sobre">sobre</Link>
       </div>
       
       <div className="barra2"></div>

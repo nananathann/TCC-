@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './css/sobre.css'
 import Barra from './images/Barramenu.png'
 import robokids from './images/robokids.png'
@@ -6,7 +6,6 @@ import carrinho from './images/carrinhofeito.png'
 
 
 function Sobre() {
-  const [count, setCount] = useState(0)
   return (
     <>
     <header>
