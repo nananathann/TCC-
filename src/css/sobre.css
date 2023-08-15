@@ -29,8 +29,17 @@ header {
     color: #7F60F9;
     text-align: center;
     font-family: Inter;
-    font-size: 45px;
+    font-size: 46px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
   }
+
+  .p1{
+    background: #40B2A0;
+  }
+
+  .img{
+    width: 269px;
+    height: 222px;
+    flex-shrink: 0;
+    }
