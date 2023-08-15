@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #CCCCCC;
+  background: #ccc;
 }
 
 header {
     display: flex;
-    background: ffff;
     margin-top: 21px;
     margin-left: 14px;
     margin-right: 18px;
@@ -21,7 +20,17 @@ header {
   header div {
     width: 37px;
     height: 40px;
-    flex-shrink: 0;
     margin-left: 270px;
     margin-top: 2px;
+  }
+
+  h1{
+    display: flex;
+    color: #7F60F9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
