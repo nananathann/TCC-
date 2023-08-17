@@ -24,22 +24,23 @@ header {
     margin-top: 2px;
   }
 
-  h1{
-    display: flex;
+  main h1{
     color: #7F60F9;
+    display: flex;
+    margin-top: 69px;
+    margin-left: 118px;
     text-align: center;
     font-family: Inter;
-    font-size: 46px;
-    font-style: normal;
-    line-height: normal;
+    font-size: 45px;
+    font-weight: 600;
   }
 
   .p1{
     background: #40B2A0;
   }
 
-  .img{
+  .carro{
     width: 269px;
     height: 222px;
-    flex-shrink: 0;
+    margin-top: 38px;
     }

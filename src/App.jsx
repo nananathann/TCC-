@@ -19,7 +19,7 @@ function App() {
   </div>
     </header>
 
-    
+    <body>
 
     <main>
     <div className="barra1"></div>
@@ -57,6 +57,8 @@ function App() {
       
       <div className="barra2"></div>
 
+
+      </body>
     </>
   )
 }
