@@ -121,8 +121,11 @@ input:checked~label .hamburguer::after {
   background: #dfdfdf;
   border-radius: 20px;
   border: 3px solid #40b2a0;
-  width: 130px;
+  width: 220px;
   height: 3rem;
+  padding-left: 10px;
+  margin-left: 29px;
+  
 }
 
 .inicio img{
@@ -130,14 +133,148 @@ input:checked~label .hamburguer::after {
   margin-left: 7px;
   margin-right: 90px;
   background: none;
-  height: 31px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
-/*.inicio Link {
-  background: none;
-}*/
+.inicio .Link {
+  background: #dfdfdf;
+  height: 10px;
+  font-size: larger;
+}
 
+.sobre {
+  display: flex;
+  background: #dfdfdf;
+  border-radius: 20px;
+  border: 3px solid #40b2a0;
+  width: 220px;
+  height: 3rem;
+  padding-left: 10px;
+  margin-left: 29px;
+  
+}
+
+.sobre img{
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 90px;
+  background: none;
+  height: 30px;
+  width: 30px;
+}
+
+.sobre .Link {
+  background: #dfdfdf;
+  height: 10px;
+  font-size: larger;
+}
+
+.objetivos {
+  display: flex;
+  background: #dfdfdf;
+  border-radius: 20px;
+  border: 3px solid #40b2a0;
+  width: 220px;
+  height: 3rem;
+  padding-left: 10px;
+  margin-left: 29px;
+  
+}
+
+.objetivos img{
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 90px;
+  background: none;
+  height: 30px;
+  width: 30px;
+}
+
+.objetivos .Link {
+  background: #dfdfdf;
+  height: 10px;
+  font-size: larger;
+}
+
+.equipamentos {
+  display: flex;
+  background: #dfdfdf;
+  border-radius: 20px;
+  border: 3px solid #40b2a0;
+  width: 220px;
+  height: 3rem;
+  padding-left: 10px;
+  margin-left: 29px;
+  
+}
+
+.equipamentos img{
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 90px;
+  background: none;
+  height: 30px;
+  width: 30px;
+}
+
+.equipamentos .Link {
+  background: #dfdfdf;
+  height: 10px;
+  font-size: larger;
+}
+
+.projeto {
+  display: flex;
+  background: #dfdfdf;
+  border-radius: 20px;
+  border: 3px solid #40b2a0;
+  width: 220px;
+  height: 3rem;
+  padding-left: 10px;
+  margin-left: 29px;
+  
+}
+
+.projeto img{
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 90px;
+  background: none;
+  height: 30px;
+  width: 30px;
+}
+
+.projeto .Link {
+  background: #dfdfdf;
+  height: 10px;
+}
+
+.bibliografia {
+  display: flex;
+  background: #dfdfdf;
+  border-radius: 20px;
+  border: 3px solid #40b2a0;
+  width: 220px;
+  height: 3rem;
+  padding-left: 10px;
+  margin-left: 29px;
+}
+
+.bibliografia img{
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 90px;
+  background: none;
+  height: 30px;
+  width: 30px;
+}
+
+.bibliografia .Link {
+  background: #dfdfdf;
+  height: 10px;
+  font-size: larger;
+}
 
 
 
