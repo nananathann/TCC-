@@ -137,10 +137,8 @@ input:checked~label .hamburguer::after {
   width: 30px;
 }
 
-.inicio .Link {
-  background: #dfdfdf;
-  height: 10px;
-  font-size: larger;
+.inici {
+  color: #40b2a0;
 }
 
 .sobre {

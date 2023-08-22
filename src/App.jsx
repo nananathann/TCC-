@@ -40,22 +40,22 @@ function App() {
       <div className="itens">
 
     <div className="inicio">
-      <img src={ home } alt="" />  <Link to="/">Inicio</Link>
+      <img src={ home } alt="" />  <Link id="inici" to="/">Inicio</Link>
     </div>
     <div className="sobre">
-      <img src={ sobre } alt="" />  <Link to="/sobre">Sobre</Link>
+      <img src={ sobre } alt="" />  <Link id="sobr" to="/sobre">Sobre</Link>
     </div>
     <div className="objetivos">
-      <img src={ objetivos } alt="" />  <Link to="/objetivos">Objetivos</Link>
+      <img src={ objetivos } alt="" />  <Link id="objetiv" to="/objetivos">Objetivos</Link>
     </div>
     <div className="equipamentos">
-      <img src={ equipamentos } alt="" />  <Link to="/equipamentos">Equipamentos</Link>
+      <img src={ equipamentos } alt="" />  <Link id="equipament" to="/equipamentos">Equipamentos</Link>
     </div>
     <div className="projeto">
-      <img src={ projeto } alt="" />  <Link to="/projeto">Projeto</Link>
+      <img src={ projeto } alt="" />  <Link id="projet" to="/projeto">Projeto</Link>
     </div>
     <div className="bibliografia">
-      <img src={ bibliografia } alt="" />  <Link to="/bibliografia">Bibliografia</Link>
+      <img src={ bibliografia } alt="" />  <Link id="bibliografias" to="/bibliografia">Bibliografia</Link>
     </div>
 
      </div>
