@@ -12,7 +12,7 @@ function App() {
     <>
     <header>
 
-  <img src={Barra} alt="barra menu" />
+      
 
 <div className="logo">
   <img src={robokids} alt="pequeno robokids" />
@@ -21,6 +21,19 @@ function App() {
 
     <body>
 
+    <div className="sidebar">
+    <input type="checkbox" id="check" />
+    <label for="check">
+
+        <div class="menu">
+            <span class="hamburguer"></span>
+        </div>
+
+    </label>
+
+    <div class="barra"></div>
+
+    </div>
     <main>
     <div className="barra1"></div>
     

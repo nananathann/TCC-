@@ -10,8 +10,6 @@ function Sobre() {
     <>
     <header>
 
-    <img src={Barra} alt="barra menu" />
-
 <div className="logo">
   <img src={robokids} alt="pequeno robokids" />
   </div>
