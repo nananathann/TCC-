@@ -1,6 +1,4 @@
-
 import './css/sobre.css'
-import Barra from './images/Barramenu.png'
 import robokids from './images/robokids.png'
 import carrinho from './images/carrinhofeito.png'
 

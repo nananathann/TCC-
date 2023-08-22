@@ -14,6 +14,30 @@ header {
 
 }
 
+
+
+
+
+
+
+
+
+
+/*sidebar aq em baixinho em*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu {
   border-radius: 50%;
   background: #dfdfdf;
@@ -73,8 +97,6 @@ input:checked~label .hamburguer::after {
   bottom: 0px;
 }
 
-
-
 .barra {
   background-color: #dfdfdf;
   border-radius: 0 40px 40px 0;
@@ -89,6 +111,61 @@ input:checked~label .hamburguer::after {
 #check:checked~.barra {
   transform: translateX(300px);
 }
+
+.itens {
+  margin-top: 100px;
+}
+
+.inicio {
+  display: flex;
+  background: #dfdfdf;
+  border-radius: 20px;
+  border: 3px solid #40b2a0;
+  width: 130px;
+  height: 3rem;
+}
+
+.inicio img{
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 90px;
+  background: none;
+  height: 31px;
+  width: 40px;
+}
+
+/*.inicio Link {
+  background: none;
+}*/
+
+
+
+
+
+
+
+
+
+/*sidebar da q pra cima emmm*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header div {
   width: 37px;

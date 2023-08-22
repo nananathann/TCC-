@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './css/home.css'
-import Barra from './images/Barramenu.png'
 import robokids from './images/robokids.png'
 import robo from './images/robo-12.png'
-import { Link } from 'react-router-dom'
+import home from './images/sidebar-icons/home.png'
+import sobre from './images/sidebar-icons/sobre.png'
+import objetivos from './images/sidebar-icons/objetivos.png'
+import equipamentos from './images/sidebar-icons/equipamentos.png'
+import projeto from './images/sidebar-icons/projeto.png'
+import bibliografia from './images/sidebar-icons/bibliografia.png'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,7 +25,7 @@ function App() {
 
     <body>
 
-    <div className="sidebar">
+    
     <input type="checkbox" id="check" />
     <label for="check">
 
@@ -31,9 +35,33 @@ function App() {
 
     </label>
 
-    <div class="barra"></div>
+    <div class="barra">
+
+      <div className="itens">
+
+    <div className="inicio">
+      <img src={ home } alt="" />  <Link to="/">Inicio</Link>
+    </div>
+    <div className="sobre">
+      <img src={ sobre } alt="" />  <Link to="/sobre">Sobre</Link>
+    </div>
+    <div className="objetivos">
+      <img src={ objetivos } alt="" />  <Link to="/objetivos">Objetivos</Link>
+    </div>
+    <div className="equipamentos">
+      <img src={ equipamentos } alt="" />  <Link to="/equipamentos">Equipamentos</Link>
+    </div>
+    <div className="projeto">
+      <img src={ projeto } alt="" />  <Link to="/projeto">Projeto</Link>
+    </div>
+    <div className="bibliografia">
+      <img src={ bibliografia } alt="" />  <Link to="/bibliografia">Bibliografia</Link>
+    </div>
+
+     </div>
 
     </div>
+  
     <main>
     <div className="barra1"></div>
     
