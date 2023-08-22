@@ -16,17 +16,13 @@ header {
 
 .menu {
   border-radius: 50%;
-  background: #CCCCCC;
-  width: 60px;
-  height: 60px;
+  background: #dfdfdf;
+  width: 0px;
+  height: 0px;
   position: fixed;
   top: 6.6px;
-  left: 25px;
+  left: 16px;
   z-index: 1;
-}
-
-.menu:after {
-  background: #dfdfdf;
 }
 
 .hamburguer {
@@ -36,7 +32,7 @@ header {
   width: 26px;
   height: 2px;
   top: 29px;
-  left: 15px;
+  left: 16px;
   transition: 0.5s ease-in-out;
 }
 
@@ -76,6 +72,8 @@ input:checked~label .hamburguer::after {
   transform: rotate(90deg);
   bottom: 0px;
 }
+
+
 
 .barra {
   background-color: #dfdfdf;
@@ -201,7 +199,7 @@ main h1 {
   text-align: left;
   margin-top: 13px;
   margin-left: 18px;
-  width: 162px;
+  width: 153.4px;
   height: 150px;
   color: #000;
   font-family: Inter;
@@ -216,6 +214,7 @@ main h1 {
   height: 130px;
   margin-top: -148px;
   margin-inline: 217px;
+  z-index: 1;
 }
 
 
