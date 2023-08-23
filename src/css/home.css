@@ -113,18 +113,22 @@ input:checked~label .hamburguer::after {
 }
 
 .itens {
-  margin-top: 100px;
+  margin-top: 130px;
+  position: relative;
+  background: #dfdfdf;
+  
 }
 
 .inicio {
   display: flex;
-  background: #dfdfdf;
+  background: none;
   border-radius: 20px;
   border: 3px solid #40b2a0;
   width: 220px;
   height: 3rem;
   padding-left: 10px;
   margin-left: 29px;
+  z-index: 2;
   
 }
 
@@ -137,8 +141,14 @@ input:checked~label .hamburguer::after {
   width: 30px;
 }
 
-.inici {
-  color: #40b2a0;
+#inici {
+
+  color: #000;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-left: -50px;
+  
 }
 
 .sobre {
@@ -149,6 +159,7 @@ input:checked~label .hamburguer::after {
   width: 220px;
   height: 3rem;
   padding-left: 10px;
+  margin-top: 56px;
   margin-left: 29px;
   
 }
@@ -162,10 +173,13 @@ input:checked~label .hamburguer::after {
   width: 30px;
 }
 
-.sobre .Link {
-  background: #dfdfdf;
-  height: 10px;
-  font-size: larger;
+#sobr {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: -52px;
 }
 
 .objetivos {
@@ -176,6 +190,7 @@ input:checked~label .hamburguer::after {
   width: 220px;
   height: 3rem;
   padding-left: 10px;
+  margin-top: 56px;
   margin-left: 29px;
   
 }
@@ -189,10 +204,14 @@ input:checked~label .hamburguer::after {
   width: 30px;
 }
 
-.objetivos .Link {
-  background: #dfdfdf;
-  height: 10px;
-  font-size: larger;
+#objetiv {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 600;
+  height: 24px;
+  line-height: 30px;
+  margin-left: -75px;
 }
 
 .equipamentos {
@@ -203,6 +222,7 @@ input:checked~label .hamburguer::after {
   width: 220px;
   height: 3rem;
   padding-left: 10px;
+  margin-top: 56px;
   margin-left: 29px;
   
 }
@@ -216,10 +236,14 @@ input:checked~label .hamburguer::after {
   width: 30px;
 }
 
-.equipamentos .Link {
-  background: #dfdfdf;
-  height: 10px;
-  font-size: larger;
+#equipament {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 600;
+  height: 24px;
+  line-height: 30px;
+  margin-left: -75px;
 }
 
 .projeto {
@@ -230,6 +254,7 @@ input:checked~label .hamburguer::after {
   width: 220px;
   height: 3rem;
   padding-left: 10px;
+  margin-top: 56px;
   margin-left: 29px;
   
 }
@@ -243,9 +268,14 @@ input:checked~label .hamburguer::after {
   width: 30px;
 }
 
-.projeto .Link {
-  background: #dfdfdf;
-  height: 10px;
+#projet {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 600;
+  height: 24px;
+  line-height: 30px;
+  margin-left: -75px;
 }
 
 .bibliografia {
@@ -256,6 +286,7 @@ input:checked~label .hamburguer::after {
   width: 220px;
   height: 3rem;
   padding-left: 10px;
+  margin-top: 56px;
   margin-left: 29px;
 }
 
@@ -268,10 +299,14 @@ input:checked~label .hamburguer::after {
   width: 30px;
 }
 
-.bibliografia .Link {
-  background: #dfdfdf;
-  height: 10px;
-  font-size: larger;
+#bibliografias {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 600;
+  height: 24px;
+  line-height: 30px;
+  margin-left: -75px;
 }
 
 
@@ -433,6 +468,6 @@ main h1 {
 @media only screen and (min-width: 560px) {
 
   header{
-    background:black;
+    background:rgba(0, 0, 0, 0.445);
   }
 }
