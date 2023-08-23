@@ -151,6 +151,7 @@ input:checked~label .hamburguer::after {
   line-height: 30px;
   margin-top: 7px;
   margin-left: -78px;
+/*  text-decoration: none;*/
   
 }
 
