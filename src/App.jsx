@@ -78,7 +78,7 @@ function App() {
     </section>
 
     <div className="linkinho">
-      <Link to="/objetivos">Objetivos</Link>
+      <Link  id="linkk" to="/objetivos">Objetivos</Link>
       </div>
 
     <h1> Público <br/>Alvo</h1>
