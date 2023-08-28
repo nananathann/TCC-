@@ -152,7 +152,7 @@ input:checked~label .hamburguer::after {
   margin-top: 7px;
   margin-left: -78px;
 /*  text-decoration: none;*/
-  
+  background: none;
 }
 
 .sobre {
@@ -186,6 +186,7 @@ input:checked~label .hamburguer::after {
   height: 24px;
   margin-top: 7px;
   margin-left: -78px;
+  background: none;
 }
 
 .objetivos {
@@ -219,6 +220,7 @@ input:checked~label .hamburguer::after {
   line-height: 30px;
   margin-top: 7px;
   margin-left: -78px;
+  background: none;
 }
 
 .equipamentos {
@@ -252,6 +254,7 @@ input:checked~label .hamburguer::after {
   line-height: 30px;
   margin-top: 7px;
   margin-left: -78px;
+  background: none;
 }
 
 .projeto {
@@ -285,6 +288,7 @@ input:checked~label .hamburguer::after {
   line-height: 30px;
   margin-top: 7px;
   margin-left: -78px;
+  background: none;
 }
 
 .bibliografia {
@@ -317,6 +321,7 @@ input:checked~label .hamburguer::after {
   line-height: 30px;
   margin-top: 7px;
   margin-left: -78px;
+  background: none;
 }
 
 
