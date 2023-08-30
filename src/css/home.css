@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Archivo:wght@300;700 & family= Open+Sans:ital@1 & family= Roboto:ital,wght@0,100; 0.500;0.700;1.500;1.700 & display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +15,6 @@ header {
   margin-right: 18px;
 
 }
-
-
-
-
-
 
 
 
@@ -486,9 +483,16 @@ main h1 {
 }
 
 
-@media only screen and (min-width: 560px) {
+
+
+
+
+
+
+/*@media only screen and (min-width: 560px) {
 
   header{
     background:rgba(0, 0, 0, 0.438);
   }
 }
+*/
