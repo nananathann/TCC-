@@ -100,7 +100,7 @@ function App() {
     <div className="sobre">
 
       <h1>Sobre</h1>
-      <div className="sobre">
+      <div className="sobreP">
         <p>O nosso projeto sera um carrinho de brinquedo com sensores ultrassônicos, segue linha, e servos, com o intuído de estimular o desenvolvimento físico e distrair o neném</p>
       </div>
 

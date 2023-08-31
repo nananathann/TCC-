@@ -482,7 +482,19 @@ main h1 {
   z-index: 1;
 }
 
+.sobre {
+  background: #CCCCCC;
+  border: none;
+}
 
+.sobre h1{
+color: #7F60F9;
+margin-right: 67px;
+}
+
+.sobreP {
+
+}
 
 
 
