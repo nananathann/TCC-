@@ -97,6 +97,24 @@ function App() {
       
       <div className="barra2"></div>
 
+    <div className="sobre">
+
+      <h1>Sobre</h1>
+      <div className="sobre">
+        <p>O nosso projeto sera um carrinho de brinquedo com sensores ultrassônicos, segue linha, e servos, com o intuído de estimular o desenvolvimento físico e distrair o neném</p>
+      </div>
+
+      <img src="" alt="img do carrinho exemplo" className="carrinho" />
+
+      <div className="verMais">
+        <p>Ver mais</p>
+      </div>
+      <div className="barraSobre"></div>
+      <div className="barraSobre2"></div>
+
+
+      </div>
+
 
       </body>
     </>
