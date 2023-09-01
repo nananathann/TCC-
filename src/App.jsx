@@ -8,6 +8,7 @@ import objetivos from './images/sidebar-icons/objetivos.png'
 import equipamentos from './images/sidebar-icons/equipamentos.png'
 import projeto from './images/sidebar-icons/projeto.png'
 import bibliografia from './images/sidebar-icons/bibliografia.png'
+import carroex from './images/carroex.png'
 
 
 function App() {
@@ -81,7 +82,7 @@ function App() {
       <Link  id="linkk" to="/objetivos">Objetivos</Link>
       </div>
 
-    <h1> Público <br/>Alvo</h1>
+    <h1 id='publicoalvo'> Público <br/>Alvo</h1>
     
     <div className="publico">
       <p>Já existem carrinhos, com sensor de proximidade, e segue linha, porém nenhum deles foram criados com o mesmo intuito do nosso, os objetivos de cada um é diferente um do outro</p>
@@ -97,21 +98,21 @@ function App() {
       
       <div className="barra2"></div>
 
-    <div className="sobre">
+    <div className="sobrePag">
 
       <h1>Sobre</h1>
-      <div className="sobreP">
-        <p>O nosso projeto sera um carrinho de brinquedo com sensores ultrassônicos, segue linha, e servos, com o intuído de estimular o desenvolvimento físico e distrair o neném</p>
+      <div id="sobreP">
+        <p>O nosso projeto será um carrinho de brinquedo com sensores ultrassônicos, segue linha, e servos, com o intuído de estimular o desenvolvimento físico e distrair o neném</p>
       </div>
 
-      <img src="" alt="img do carrinho exemplo" className="carrinho" />
+      <img src={carroex} alt="img do carrinho exemplo" className="carrinho" />
 
       <div className="verMais">
-        <p>Ver mais</p>
+        
+      <Link  id="verSobre" to="/sobre">Ver mais</Link>
       </div>
       <div className="barraSobre"></div>
       <div className="barraSobre2"></div>
-
 
       </div>
 
