@@ -2,12 +2,14 @@ import { Link } from 'react-router-dom'
 import './css/home.css'
 import robokids from './images/robokids.png'
 import robo from './images/robo-12.png'
+
 import home from './images/sidebar-icons/home.png'
 import sobre from './images/sidebar-icons/sobre.png'
 import objetivos from './images/sidebar-icons/objetivos.png'
 import equipamentos from './images/sidebar-icons/equipamentos.png'
 import projeto from './images/sidebar-icons/projeto.png'
 import bibliografia from './images/sidebar-icons/bibliografia.png'
+
 import carroex from './images/carroex.png'
 
 
@@ -17,16 +19,14 @@ function App() {
     <>
     <header>
 
-      
-
 <div className="logo">
   <img src={robokids} alt="pequeno robokids" />
   </div>
+
     </header>
 
     <body>
 
-    
     <input type="checkbox" id="check" />
     <label for="check">
 

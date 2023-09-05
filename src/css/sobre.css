@@ -23,13 +23,17 @@ header div {
   margin-left: 270px;
   margin-top: 2px;
 }
+body {
+  display: flex;
+  margin-left:5px;
+}
 
 
 main h1{
   color: #7F60F9;
   display: flex;
   margin-top: 69px;
-  margin-left: 118px;
+  margin-left: 120px;
   text-align: center;
   font-family: Inter;
   font-size: 45px;
@@ -89,52 +93,7 @@ main h1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*sidebar aq em baixinho em*/
+    sidebar aq em baixinho em
 
   .menu {
     border-radius: 50%;
@@ -420,10 +379,6 @@ main h1{
     margin-left: -78px;
     background: none;
   }
-  
-  
-  
-  
   
   
   
