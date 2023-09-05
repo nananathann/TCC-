@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #CCCCCC;
+  }
+  
+  
+header {
+  display: flex;
+  margin-top: 21px;
+  margin-left: 14px;
+  margin-right: 18px;
+  }
+
+.deitada{
+  margin: 18px 10px;
+  stroke-width: 2px;
+  stroke: #40B2A0;
+  width: 206px;
+  height: 3px;
+}
+
+.deitada2 {
+    background: #40B2A0;
+    width: 206px;
+    height: 5px;
+    margin-left: 356px;
+    margin-right: 19px;
+    margin-top: 23px;
+}
+
+.bonequinhos {
+  width: 95px;
+  height: 95px;
+  margin: 56px 24px;
+}
+
+.pa1 {
+  width: 177px;
+  height: 194px;
+  margin: 11px 170px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pa2 {
+
+}
+
+
