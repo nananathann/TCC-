@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #ccc;
+  }
+
+main h1 {
+  width: 250px;
+  height: 39px;
+  margin: 42px 48.5px;
+  color: #7F60F9;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+main h2{
+  color: #40b2a0;
+  text-align: center;
+  color: #40B2A0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: #FFF;
+}
+
+main h3 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #FFF;
+}
+
+
+main .elementos {
+    display: flex;
+    background-color: #7F60F9;
+    margin: 40px 16px;
+}
+
+
+.seguidor {
+  border-radius: 20px;
+  background: #FFF;
+  width: 102px;
+  height: 277px;
+}
+
+.seguidor img {
+    margin: 13px 8.5px;
+  width: 85px;
+  height: 104px;
+}
+
+.seguidor h2 {
+    
+    
+}
+
+.seguidor h3 {
+    
+}
+
+
+.servo{
+  background: #FFF;
+  border-radius: 20px;
+  width: 102px;
+  height: 277px;
+}
+
+.servo img{
+    width: 93px;
+    height: 92px;
+    margin: 19px 4.5px;
+}
+
+.servo h2 {
+    
+}
+
+.servo h3 {
+
+}
+
+
+.ponte{
+  border-radius: 20px;
+  background: #FFF;
+  width: 102px;
+  height: 277px;
+}
+
+.ponte img{
+    width: 90px;
+    height: 72.198px;
+    margin: 29px 6px;
+}
+
+.ponte h2 {
+
+}
+
+.ponte h3 {
+    
+}
+
+
+.ultrassonico {
+  border-radius: 20px;
+  background: #FFF; 
+  width: 102px;
+  height: 277px; 
+}
+
+.ultrassonico img{
+  width: 92px;
+  height: 54.925px;
+  margin: 43px 5px;
+}
+
+.ultrassonico h2 {
+
+}
+
+.ultrassonico h3 {
+    
+}
+
+
+.roda {
+  border-radius: 20px;
+  background: #FFF;
+  width: 102px;
+  height: 277px;
+}
+
+.roda img{
+  margin: 17px 6px;
+  width: 90px;
+  height: 105px;
+
+}
+
+.roda h2 {
+
+}
+
+.roda h3 {
+    
+}
+
+
+.led {
+  border-radius: 20px;
+  background: #FFF;
+  width: 102px;
+  height: 277px;
+}
+
+.led img{
+    width: 90px;
+    height: 82.957px;
+    margin: 29px 6px;
+}
+
+.led h2 {
+
+}
+
+.led h3 {
+    
+}
+
+
