@@ -51,7 +51,7 @@ main h1 {
 .paragrafo2{
   width: 310px;
   height: 80px;
-  margin: 20px 60px;
+  margin: 20px 42px;
   border-radius: 25px;
   border: 5px solid #40B2A0;
   background: rgba(64, 178, 160, 0.00);
@@ -59,9 +59,11 @@ main h1 {
 }
 
 .paragrafo2 p{
-    width: 281px;
+  display: flex;
+    width: 272px;
     height: 55px;
-    margin-top: 6px;
+    margin-top: 5.5px;
+    margin-left: 8px;
     margin-right: 10px;
     color: #000;
     font-family: Inter;
@@ -75,16 +77,33 @@ main h1 {
 .linha {
     width: 3px;
     height: 240px;
-    margin-top: -100px;
+    margin-top: -210px;
     background: #7F60F9;
 }
 
 .links {
-    width: 144px;
+    width: 250px;
     height: 306px;
     margin-top: 90px;
     border-radius: 30px;
     border: 5px solid #7F60F9;
     background: rgba(64, 178, 160, 0.00);
     mix-blend-mode: darken;
+}
+
+ul{
+  width: 126px;
+  height: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+li {
+  margin-top: 6px;
 }
