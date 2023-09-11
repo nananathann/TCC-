@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #CCCCCC;
+  }
+  
+  
+header {
+  display: flex;
+  margin-top: 21px;
+  margin-left: 14px;
+  margin-right: 18px;
+  }
+
+main h1 {
+  margin: 59px 109px;
+  }
+
+.video1 {
+  background: black;
+  width: 344px;
+  height: 233px;border-radius: 15px;
+}
+
+.video2 {
+    width: 170px;
+    height: 177px;
+    border-radius: 15px;
+background: #7E7E7E;
+}
+
+.video3 {
+  width: 170px;
+  height: 177px;
+  margin-top: -179px;
+  margin-left: 173px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #7E7E7E;
+}
