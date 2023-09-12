@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import './css/bibliografia.css'
 import robokids from './images/robokids.png'
+import link from './images/link.png'
 
 
 function Bibliografia () {
@@ -44,7 +45,7 @@ return (
         </ul>
     </div>
 
-    <img src="" alt="imagem de um simbolizador de links" />
+    <img src={link} alt="imagem de um simbolizador de links" />
 
     </main>
 </body>
