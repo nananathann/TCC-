@@ -8,34 +8,34 @@
   
 header {
   display: flex;
-  margin-top: 21px;
-  margin-left: 14px;
-  margin-right: 18px;
+  margin-top: 1.3125rem;
+  margin-left: 0.875rem;
+  margin-right: 1.125rem;
   }
 
 main h1 {
-  margin: 59px 109px;
+  margin: 3.6875rem 6.8125rem;
   }
 
 .video1 {
   background: black;
-  width: 344px;
-  height: 233px;border-radius: 15px;
+  width: 21.5rem;
+  height: 14.5625rem;border-radius: 0.9375rem;
 }
 
 .video2 {
-    width: 170px;
-    height: 177px;
-    border-radius: 15px;
+    width: 10.625rem;
+    height: 11.0625rem;
+    border-radius: 0.9375rem;
 background: #7E7E7E;
 }
 
 .video3 {
-  width: 170px;
-  height: 177px;
-  margin-top: -179px;
-  margin-left: 173px;
+  width: 10.625rem;
+  height: 11.0625rem;
+  margin-top: -11.1875rem;
+  margin-left: 10.8125rem;
   flex-shrink: 0;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   background: #7E7E7E;
 }

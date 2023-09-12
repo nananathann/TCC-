@@ -8,102 +8,102 @@
   
 header {
   display: flex;
-  margin-top: 21px;
-  margin-left: 14px;
-  margin-right: 18px;
+  margin-top: 1.3125rem;
+  margin-left: 0.875rem;
+  margin-right: 1.125rem;
 }
 
 main h1 {
-  width: 168px;
-  height: 29px;
-  margin-left: 100px;
+  width: 10.5rem;
+  height: 1.8125rem;
+  margin-left: 6.25rem;
   color: #7F60F9;
   font-family: Inter;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
 .paragrafo {
-  width: 310px;
-  height: 80px;
-  margin-left: 10px;
-  border-radius: 25px;
-  border: 5px solid #40B2A0;
+  width: 19.375rem;
+  height: 5rem;
+  margin-left: 0.625rem;
+  border-radius: 1.5625rem;
+  border: 0.3125rem solid #40B2A0;
   background: rgba(64, 178, 160, 0.00);
   mix-blend-mode: darken;
 }
 
 .paragrafo p {
-    width: 281px;
-    height: 55px;
-    margin-top: 6px;
-    margin-left: 13px;
+    width: 17.5625rem;
+    height: 3.4375rem;
+    margin-top: 0.375rem;
+    margin-left: 0.8125rem;
     color: #000;
     font-family: Inter;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .paragrafo2{
-  width: 310px;
-  height: 80px;
-  margin: 20px 42px;
-  border-radius: 25px;
-  border: 5px solid #40B2A0;
+  width: 19.375rem;
+  height: 5rem;
+  margin: 1.25rem 2.625rem;
+  border-radius: 1.5625rem;
+  border: 0.3125rem solid #40B2A0;
   background: rgba(64, 178, 160, 0.00);
   mix-blend-mode: darken;
 }
 
 .paragrafo2 p{
   display: flex;
-    width: 272px;
-    height: 55px;
-    margin-top: 5.5px;
-    margin-left: 8px;
-    margin-right: 10px;
+    width: 17rem;
+    height: 3.4375rem;
+    margin-top: 0.3438rem;
+    margin-left: 0.5rem;
+    margin-right: 0.625rem;
     color: #000;
     font-family: Inter;
     text-align: end;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .linha {
-    width: 3px;
-    height: 240px;
-    margin-top: -210px;
+    width: 0.1875rem;
+    height: 15rem;
+    margin-top: -13.125rem;
     background: #7F60F9;
 }
 
 .links {
-    width: 250px;
-    height: 306px;
-    margin-top: 90px;
-    border-radius: 30px;
-    border: 5px solid #7F60F9;
+    width: 15.625rem;
+    height: 19.125rem;
+    margin-top: 5.625rem;
+    border-radius: 1.875rem;
+    border: 0.3125rem solid #7F60F9;
     background: rgba(64, 178, 160, 0.00);
     mix-blend-mode: darken;
 }
 
 ul{
-  width: 126px;
-  height: 15px;
-  margin-top: 15px;
-  margin-left: 20px;
+  width: 7.875rem;
+  height: 0.9375rem;
+  margin-top: 0.9375rem;
+  margin-left: 1.25rem;
   color: #000;
   font-family: Inter;
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
 li {
-  margin-top: 6px;
+  margin-top: 0.375rem;
 }

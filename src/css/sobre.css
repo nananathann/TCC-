@@ -7,80 +7,80 @@
 
 header {
   display: flex;
-  margin-top: 21px;
-  margin-left: 14px;
-  margin-right: 18px;
+  margin-top: 1.3125rem;
+  margin-left: 0.875rem;
+  margin-right: 1.125rem;
   }
   
 header img {
-  width: 37px;
-  height: 37px;
+  width: 2.3125rem;
+  height: 2.3125rem;
   }
   
 header div {
-  width: 37px;
-  height: 40px;
-  margin-left: 270px;
-  margin-top: 2px;
+  width: 2.3125rem;
+  height: 2.5rem;
+  margin-left: 16.875rem;
+  margin-top: 0.125rem;
 }
 body {
   display: flex;
-  margin-left:5px;
+  margin-left:0.3125rem;
 }
 
 
 main h1{
   color: #7F60F9;
   display: flex;
-  margin-top: 69px;
-  margin-left: 120px;
+  margin-top: 4.3125rem;
+  margin-left: 7.5rem;
   text-align: center;
   font-family: Inter;
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-weight: 600;
   }
 
 .p1{
-  width: 269px;
-  height: 303px;
-  border-radius: 37px;
-  border: 3px solid #40B2A0;
-  margin: 38px 45px;
+  width: 16.8125rem;
+  height: 18.9375rem;
+  border-radius: 2.3125rem;
+  border: 0.1875rem solid #40B2A0;
+  margin: 2.375rem 2.8125rem;
 }
 
 .p1 p{
-  width: 220px;
-  height: 154px;
-  margin: 18px 20px;
+  width: 13.75rem;
+  height: 9.625rem;
+  margin: 1.125rem 1.25rem;
   text-align: center;
   font-family: Inter;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: 400;
 }
 
 .carro{
-  width: 269px;
-  height: 222px;
-  margin: -452px 45px;
+  width: 16.8125rem;
+  height: 13.875rem;
+  margin: -28.25rem 2.8125rem;
 }
 
 
 .p2{
-  width: 269px;
-  height: 220px;
-  margin: 45px 45px;
-  padding-top: 35px;
-  border-radius: 37px;
-  border: 3px solid #7F60F9;
+  width: 16.8125rem;
+  height: 13.75rem;
+  margin: 2.8125rem 2.8125rem;
+  padding-top: 2.1875rem;
+  border-radius: 2.3125rem;
+  border: 0.1875rem solid #7F60F9;
 }
 
 .p2 p{
-  width: 227px;
-  height: 149px;
-  margin: 18px 18px;
+  width: 14.1875rem;
+  height: 9.3125rem;
+  margin: 1.125rem 1.125rem;
   text-align: center;
   font-family: Inter;
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
