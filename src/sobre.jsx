@@ -13,13 +13,7 @@ import bibliografia from './images/sidebar-icons/bibliografia.png'
 function Sobre() {
   return (
     <>
-    <header>
-
-<div className="logo">
-  <img src={robokids} alt="pequeno robokids" />
-  </div>
-
-    </header>
+    <Header />
 
     <body>
 
