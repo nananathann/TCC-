@@ -1,5 +1,7 @@
 import robokids from '../images/robokids.png'
 
+import'./header.css'
+
 function Header() {
   return (
     <header>

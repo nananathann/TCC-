@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    margin-top: 1.3125rem;
+    margin-left: 0.875rem;
+    margin-right: 1.125rem;
+  
+  }
+  
+  header div {
+    width: 2.3125rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    margin-left: 16.875rem;
+    margin-top: 0.125rem;
+  }
