@@ -9,16 +9,17 @@ import Sidebar from './componentes/Sidebar'
 function Sobre() {
   return (
     <>
+    
     <Header />
 
     <body>
 
     <Sidebar />
       
-    <main>
+    <main className='mainSobre'>
     
 
-      <h1>Sobre</h1>
+      <h1 className='h1Sobre'>Sobre</h1>
 
       <div className="p1">
         <p>Já existem carrinhos, com sensor de proximidade, e segue linha, porém nenhum deles foram criados com o mesmo intuito do nosso, os objetivos de cada um é diferente um do outro</p>
@@ -29,7 +30,7 @@ function Sobre() {
         </div>
 
       <div className="carro">
-      <img src={carrinho} alt="exemplo de carrinho que ja foi feito" />
+      <img className='imgCarrinho' src={carrinho} alt="exemplo de carrinho que ja foi feito" />
       </div>
         
     </main>

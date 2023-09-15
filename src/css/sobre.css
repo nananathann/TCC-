@@ -12,7 +12,7 @@ body {
 }
 
 
-main h1{
+.mainSobre h1{
   color: #7F60F9;
   display: flex;
   margin-top: 4.3125rem;
@@ -44,7 +44,7 @@ main h1{
 .carro{
   width: 16.8125rem;
   height: 13.875rem;
-  margin: -28.25rem 2.8125rem;
+  margin: -27rem 2.8125rem;
 }
 
 

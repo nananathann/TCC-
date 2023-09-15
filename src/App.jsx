@@ -20,7 +20,7 @@ function App() {
 
       <Sidebar />
 
-    <main>
+    <main className='mainHome'>
     <div className="barra1"></div>
     
     <div className="LogoInicial">
@@ -31,7 +31,7 @@ function App() {
       <img src={robo} alt="robo da robokids" />
     </div>
 
-    <section>
+    <section className='sectionHome'>
     <p>Site voltado à apresentação do projeto</p>
     </section>
 
@@ -57,7 +57,7 @@ function App() {
 
     <div className="sobrePag">
 
-      <h1>Sobre</h1>
+      <h1 className='h1Home'>Sobre</h1>
       <div id="sobreP">
         <p>O nosso projeto será um carrinho de brinquedo com sensores ultrassônicos, segue linha, e servos, com o intuído de estimular o desenvolvimento físico e distrair o neném</p>
       </div>

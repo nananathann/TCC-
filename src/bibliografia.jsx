@@ -16,9 +16,9 @@ return (
 <body>
 
     <Sidebar />
-    <main>
+    <main className='mainBibliografia'>
 
-    <h1> Bibliografia</h1>
+    <h1 className='h1Bibliografia'> Bibliografia</h1>
 
 
     <div className="paragrafo">

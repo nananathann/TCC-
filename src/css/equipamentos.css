@@ -5,7 +5,7 @@
     background: #ccc;
   }
 
-main h1 {
+.mainEquipamentos h1 {
   width: 15.625rem;
   height: 2.4375rem;
   margin: 2.625rem 3.0313rem;
@@ -18,7 +18,7 @@ main h1 {
   line-height: 2.625rem;
 }
 
-main h2{
+.mainEquipamentos h2{
   color: #40b2a0;
   text-align: center;
   color: #40B2A0;
@@ -31,7 +31,7 @@ main h2{
   background: #FFF;
 }
 
-main h3 {
+.mainEquipamentos h3 {
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -43,7 +43,7 @@ main h3 {
 }
 
 
-main .elementos {
+.mainEquipamentos .elementos {
     display: flex;
     background-color: #7F60F9;
     margin: 2.5rem 1rem;

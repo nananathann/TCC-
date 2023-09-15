@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import './css/objetivos.css'
-import robokids from './images/robokids.png'
 import bonecos from './images/bonecos.png'
 import robocolorido from './images/robocolorido.png'
 
@@ -19,7 +18,7 @@ function Objetivos() {
 
   <Sidebar />
     
-  <main>
+  <main className='mainObjetivos'>
     <div className="deitada"></div>
 
     <section className="pa1">

@@ -21,14 +21,14 @@ return (
 
         <Sidebar />
 
-        <main>
+        <main className='mainEquipamentos'>
             <h1>Equipamentos</h1>
 
             <div className="elementos">
 
             <div className="seguidor">
                 <img src={segue} alt="imagem de um sensor segue linha" />
-                <h2>Módulo 
+                <h2 className='h2modulo'>Módulo 
                     Seguidor de 
                     Linha - 
                     TCRT5000</h2>

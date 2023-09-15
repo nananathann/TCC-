@@ -24,7 +24,7 @@
   margin-right: 22.5625rem;
 }
 
-main {
+.mainHome {
   display: flex;
   flex-direction: column;
 }
@@ -43,7 +43,7 @@ main {
   margin-block-start: -7.1875rem;
 }
 
-main section{
+.mainHome .sectionHome{
   color: #000;
   margin-top: -3.625rem;
   margin-left: 1.1875rem;

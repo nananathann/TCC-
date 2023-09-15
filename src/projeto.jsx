@@ -14,8 +14,8 @@ return (
     <body>
         <Sidebar />
         
-        <main>
-            <h1>Projeto</h1>
+        <main className='mainProjeto'>
+            <h1 className='h1Projeto'>Projeto</h1>
 
             <div className='video1'></div>
             <div className='video2'></div>
