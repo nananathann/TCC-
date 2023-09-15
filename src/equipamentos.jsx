@@ -19,14 +19,12 @@ import bibliografia from './images/sidebar-icons/bibliografia.png'
 function Equipamentos () {
 return (
     <>
-    <header>
-    <div className="logo">
-  <img src={robokids} alt="pequeno robokids" />
-  </div>
-    </header>
+    
+    <Header />
 
     <body>
-    
+
+        <Sidebar />
 
         <main>
             <h1>Equipamentos</h1>

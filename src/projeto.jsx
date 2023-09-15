@@ -1,19 +1,17 @@
 import { Link } from 'react-router-dom'
 import './css/projeto.css'
 import robokids from './images/robokids.png'
+import Sidebar from './componentes/Sidebar'
 
 function Projeto () {
 return (
     <>
-    <header>
-
-        <div className="logo">
-  <img src={robokids} alt="pequeno robokids" />
-  </div>
-
-    </header> 
+    
+    <Header /> 
 
     <body>
+        <Sidebar />
+        
         <main>
             <h1>Projeto</h1>
 
@@ -21,9 +19,10 @@ return (
             <div className='video2'></div>
             <div className='video3'></div>
         </main>
-    </body>
-
-    </>
+        
+        </body>
+        
+        </>
 )
 
 }

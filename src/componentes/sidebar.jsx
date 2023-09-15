@@ -1,3 +1,7 @@
+import { Link } from 'react-router-dom'
+
+import './Sidebar.css'
+
 import home from '../images/sidebar-icons/home.png'
 import sobre from '../images/sidebar-icons/sobre.png'
 import objetivos from '../images/sidebar-icons/objetivos.png'

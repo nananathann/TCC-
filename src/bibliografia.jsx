@@ -2,20 +2,19 @@ import { Link } from 'react-router-dom'
 import './css/bibliografia.css'
 import robokids from './images/robokids.png'
 import link from './images/link.png'
+import Sidebar from './componentes/Sidebar'
 
 
 function Bibliografia () {
 return (
     <>
-    <header>
+    
 
-    <div className="logo">
-  <img src={robokids} alt="pequeno robokids" />
-  </div>
-
-    </header>
+    <Header />
 
 <body>
+
+    <Sidebar />
     <main>
 
     <h1> Bibliografia</h1>
