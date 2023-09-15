@@ -1,13 +1,9 @@
 import { Link } from 'react-router-dom'
 import './css/sobre.css'
-import robokids from './images/robokids.png'
 import carrinho from './images/carrinhofeito.png'
-import home from './images/sidebar-icons/home.png'
-import sobre from './images/sidebar-icons/sobre.png'
-import objetivos from './images/sidebar-icons/objetivos.png'
-import equipamentos from './images/sidebar-icons/equipamentos.png'
-import projeto from './images/sidebar-icons/projeto.png'
-import bibliografia from './images/sidebar-icons/bibliografia.png'
+
+import Header from './componentes/Header'
+import Sidebar from './componentes/Sidebar'
 
 
 function Sobre() {

@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom'
+
 import './css/bibliografia.css'
-import robokids from './images/robokids.png'
 import link from './images/link.png'
+
+import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'
 
 

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './css/projeto.css'
 import robokids from './images/robokids.png'
+
+import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'
 
 function Projeto () {
@@ -21,7 +23,7 @@ return (
         </main>
         
         </body>
-        
+
         </>
 )
 
