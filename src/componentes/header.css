@@ -1,15 +1,17 @@
 header {
     display: flex;
-    margin-top: 1.3125rem;
-    margin-left: 0.875rem;
-    margin-right: 1.125rem;
+    margin-top: 21px;
+    margin-left: 14px;
+    margin-right: 18px;
   
   }
-  
-  header div {
-    width: 2.3125rem;
-    height: 2.5rem;
+
+
+
+
+  header .robokidsHeader {
+    width: 37px;
+    height: 41px;
+    margin-left: 300px;
     flex-shrink: 0;
-    margin-left: 16.875rem;
-    margin-top: 0.125rem;
   }

@@ -6,6 +6,10 @@ import robo from './images/robo-12.png'
 import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'
 
+import led from './images/equipamentos/led.png'
+import ultrassonico from './images/equipamentos/ultrassonico.png'
+import servo from './images/equipamentos/servo.png'
+
 
 import carroex from './images/carroex.png'
 
@@ -47,7 +51,7 @@ function App() {
   
       
 
-      </main>
+      
       <div className="logoFinal">
         <img src={robokids} alt="robokids" />
 
@@ -72,6 +76,48 @@ function App() {
       <div className="barraSobre2"></div>
 
       </div>
+
+
+
+      <div className="PaginaEquipamentos">
+
+        <h1 className="homeEquipamentos">Equipamentos</h1>
+
+        <div className="homeUltrassonico">
+          <img src={ ultrassonico } alt="sensor ultrassonico" />
+          <h2> Módulo
+            Sensor de
+            Distância
+            Ultrassônico</h2>
+          <p>R$ 15,00</p>
+        </div>
+
+        <div className="homeServo">
+          <img src={servo} alt="servo motor" />
+          <h2>Micro Servo
+            Motor</h2>
+          <p>R$ 22,00</p>
+        </div>
+
+        <div className="homeLed">
+          <img src={ led } alt="led" />
+          <h2>Led Difuso 5mm</h2>
+          <p>R$ 0,50</p>
+        </div>
+
+        <div className="verMaisEquipamentos">
+        
+      <Link  id="verEquipamentos" to="/equipamentos">Ver mais</Link>
+      </div>
+
+      <div className="equipamentosLinha"></div>
+
+
+      </div>
+
+
+
+      </main>
 
 
       </body>
