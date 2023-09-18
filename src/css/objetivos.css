@@ -20,13 +20,13 @@
 .bonequinhos {
   width: 5.9375rem;
   height: 5.9375rem;
-  margin: -10rem 1.5rem 0;
+  margin-top: -110px;
 }
 
 .pa1 {
   width: 10rem;
   height: 12.125rem;
-  margin-top: -0.625rem;
+  margin-top: 1.5rem;
   margin-left: 10.3125rem;
   color: #000;
   font-family: Inter;
@@ -37,7 +37,7 @@
   display: flex;
   width: 11.5rem;
   height: 2.5rem;
-  margin: rem 5.9375rem 0;
+  margin: 2rem 5.9375rem 0;
   color: #7F60F9;
   text-align: center;
   font-family: Inter;
@@ -50,24 +50,24 @@
   background: #40B2A0;
   width: 11.875rem;
   height: 0.125rem;
-  margin: -12.5rem 1.5625rem;
+  margin: 3rem 1.5625rem 0;
+  
 }
 
 .pa2 {
   display: flex;
-  margin: 14.6875rem 2.1875rem 0;
+  margin: 1.5rem 2.1875rem 0;
   width: 10rem;
   height: 22.1875rem;
   color: #000;
   font-family: Inter;
   font-size: 0.9375rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  
+  background-color: #7F60F9;
 }
 
 .robocolorido {
   width: 6.0625rem;
-  height: 6.0625rem;''
-  margin: 31.875rem 15.0625rem;
+  height: 6.0625rem;
+  margin: -1rem 15rem;
 }

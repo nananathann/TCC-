@@ -45,11 +45,10 @@
 
 .mainEquipamentos .elementos {
     display: flex;
-    flex-direction: initial;
+    flex-wrap: wrap;
     gap: 18px;
     width: 343px;
-    background-color: #7F60F9;
-    margin: 2.5rem 0.5rem;
+    margin: 2.5rem 1rem;
 }
 
 
