@@ -27,7 +27,7 @@ function Objetivos() {
 
     <img src={bonecos} alt="" className="bonequinhos" />
 
-    <h1>Objetivos</h1>
+    <h1 className='objetivinhos'>Objetivos</h1>
 
     <div className="deitada2"></div>
     

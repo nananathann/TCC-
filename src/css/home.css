@@ -49,7 +49,6 @@
   margin-left: 1.1875rem;
   font-family: Inter;
   font-size: 0.625rem;
-  font-weight: 200;
   line-height: 0.625rem;
   width: 11.4375rem;
   height: 0.6875rem;
@@ -126,7 +125,6 @@ a {
   height: 8.125rem;
   margin-top: -9.25rem;
   margin-inline: 13.5625rem;
-  z-index: 1;
 }
 
 .sobrePag {
@@ -218,49 +216,57 @@ a {
 .homeEquipamentos {
   color: #7F60F9;
   font-family: Inter;
-  font-size: 40px;
-  margin-top: 110px;
-  margin-left: 49px;
+  font-size: 2.5rem;
+  margin-top: 6.875rem;
+  margin-left: 3.0625rem;
 
 }
+
+.todosEquipamentos  {
+height: 18.75rem;
+display: flex;
+margin: 4.375rem 1.75rem 0;
+gap: 1.125rem;
+}
+
 
 
 
 
 .homeUltrassonico {
-  width: 90px;
-  height: 240px;
-  border-radius: 20px;
+  width: 5.625rem;
+  height: 15rem;
+  border-radius: 1.25rem;
   background: #FFF;
 
 }
 
 .homeUltrassonico img {
-  width: 80px;
-  height: 48px;
-  margin-top: 31px;
-  margin-left: 5px;
+  width: 5rem;
+  height: 3rem;
+  margin-top: 1.9375rem;
+  margin-left: 0.3125rem;
 }
 
 .homeUltrassonico h2{
   color: #40B2A0;
-  width: 80px;
-  margin-top: 22px;
-  margin-left: 5px;
+  width: 5rem;
+  margin-top: 1.375rem;
+  margin-left: 0.3125rem;
   text-align: center;
   font-family: Inter;
-  font-size: 13px;
+  font-size: 0.8125rem;
   background: #FFF;
 }
 
 .homeUltrassonico p {
   color: #000;
-  width: 66px;
-  margin-top: 15px;
-  margin-left: 12px;
+  width: 4.125rem;
+  margin-top: 0.9375rem;
+  margin-left: 0.75rem;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: #FFF;
 }
 
@@ -268,58 +274,67 @@ a {
 
 
 .homeServo {
-  width: 90px;
-  height: 240px;
-  border-radius: 20px;
+  width: 5.625rem;
+  height: 15rem;
+  border-radius: 1.25rem;
   background: #FFF;
 }
 
 .homeServo img{
-
+  width: 4.5625rem;
+  height: 4.625rem;
+  margin:1.3125rem 0.5313rem;
 }
 
 .homeServo h2{
   color: #40B2A0;
+  margin-top: 0.1875rem;
   text-align: center;
   font-family: Inter;
-  font-size: 13px;
+  font-size: 0.8125rem;
   background: #FFF;
 }
 
 .homeServo p {
   color: #000;
+  margin: 1.5625rem 0.875rem;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: #FFF;
 }
 
 
 
 .homeLed {
-  width: 90px;
-  height: 240px;
-  border-radius: 20px;
+  width: 5.625rem;
+  height: 15rem;
+  border-radius: 1.25rem;
   background: #FFF;
 }
 
 .homeLed img {
-
+  width: 4.5625rem;
+  height: 4.5625rem;
+  margin: 1.375rem 0.5313rem;
 }
 
 .homeLed h2{
   color: #40B2A0;
+  margin: 0.25rem;
   text-align: center;
   font-family: Inter;
-  font-size: 13px;
+  font-size: 0.8125rem;
   background: #FFF;
 }
 
 .homeLed p {
+  width: 3.75rem;
   color: #000;
+  margin: 1.375rem 0.875rem;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: #FFF;
 }
 
@@ -330,7 +345,7 @@ a {
   border: 0.3125rem solid #7F60F9;
   height: 3.0625rem;
   width: 8.5625rem;
-  margin-left: 7.4375rem;
+  margin:0.9375rem 7.4375rem;
 }
 
 #verEquipamentos {
@@ -339,9 +354,6 @@ a {
   text-align: center;
   font-family: Inter;
   font-size: 1.6875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-top: 0.2125rem;
   margin-left: 0.4375rem;
 }
@@ -353,6 +365,140 @@ a {
   margin-left: 22.25rem;
   margin-right: 1.1875rem;
   margin-top: -33rem;
+}
+
+
+
+
+.h1Projetos{
+  width: 11.6875rem;
+  height: 3.125rem;
+  margin: 3.875rem 2.125rem 0;
+  color: #7F60F9;
+  font-family: Inter;
+  font-size: 3.125rem;
+}
+
+
+.videoExemplo{
+  width: 19.125rem;
+  height: 13.375rem;
+  margin: 3.5rem 2rem 0;
+  border-radius: 0.875rem;
+  background: #7E7E7E;
+}
+
+
+.pInteresse{
+  width: 19.125rem;
+  height: 13rem;
+  margin: 2.4375rem 2rem 0;
+  border-radius: 3.0625rem;
+  border: 0.3125rem solid #40B2A0;
+}
+
+
+.pInteresse p{
+  width: 15rem;
+  height: 11.625rem;
+  margin: 0.5625rem 2rem 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.375rem;
+}
+
+
+.verMaisProjeto{
+  border-radius: 2.1875rem;
+  border: 0.3125rem solid #7F60F9;
+  height: 3.0625rem;
+  width: 8.5625rem;
+  margin:0.9375rem 7.4375rem;
+}
+
+#verProjeto {
+  width: 6.875rem;
+  height: 1.625rem;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.6875rem;
+  margin-top: 0.2125rem;
+  margin-left: 0.4375rem;
+}
+
+
+.projetoLinha{
+  background: #7F60F9;
+  width: 0.125rem;
+  height: 45rem;
+  margin-top: -42rem;
+  margin-left: 0.8125rem;
+}
+
+
+
+.h1Bibliografia{
+  width: 13.8125rem;
+  height: 2.4375rem;
+  margin: 5.1875rem 7.3125rem 0;
+  color: #7F60F9;
+  font-family: Inter;
+  font-size: 2.5rem;
+}
+
+
+.imgPessoa{
+  width: 12.5rem;
+  height: 12.4375rem;
+  margin: 2.8125rem 1.625rem 0;
+}
+
+
+.pSobreNos{
+  width: 16.625rem;
+  height: 11.25rem;
+  margin: 2.0625rem 4.625rem 0;
+  border-radius: 3.0625rem;
+  border: 0.3125rem solid #40B2A0;
+}
+
+.pSobreNos p{
+  width: 13.125rem;
+  height: 9rem;
+  margin: 0.5rem 1.5rem;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.375rem;
+}
+
+
+.verMaisBibliografia{
+  border-radius: 2.1875rem;
+  border: 0.3125rem solid #7F60F9;
+  height: 3.0625rem;
+  width: 8.5625rem;
+  margin: 1.7rem 7.4375rem;
+}
+
+
+#verBibliografia{
+  width: 6.875rem;
+  height: 1.625rem;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.6875rem;
+  margin-top: 0.2125rem;
+  margin-left: 0.4375rem;
+}
+
+
+.linhaBibliografia{
+  background: #7F60F9;
+  width: 0.125rem;
+  height: 37.5rem;
+  margin-left: 22.25rem;
+  margin-right: 1.1875rem;
+  margin-top: -39rem;
 }
 
 

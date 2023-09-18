@@ -1,4 +1,4 @@
-/* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 .deitada{
   display: flex;
-  margin: 2.5rem 9.5rem;
+  margin: 2.5rem 9.5rem 0;
   stroke-width: 0.125rem;
   background: #40B2A0;
   width: 11.875rem;
@@ -20,7 +20,7 @@
 .bonequinhos {
   width: 5.9375rem;
   height: 5.9375rem;
-  margin: -9.375rem 1.5rem;
+  margin: -10rem 1.5rem 0;
 }
 
 .pa1 {
@@ -31,25 +31,21 @@
   color: #000;
   font-family: Inter;
   font-size: 0.9375rem;
-  font-weight: 400;
-  line-height: normal;
 }
 
-.mainObjetivos h1 {
+.objetivinhos {
   display: flex;
   width: 11.5rem;
   height: 2.5rem;
-  margin: 15rem 5.9375rem;
+  margin: rem 5.9375rem 0;
   color: #7F60F9;
   text-align: center;
   font-family: Inter;
   font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 600;
   line-height: 2.6875rem;
 }
 
-main .deitada2 {
+.deitada2 {
   display: flex;
   background: #40B2A0;
   width: 11.875rem;
@@ -57,9 +53,9 @@ main .deitada2 {
   margin: -12.5rem 1.5625rem;
 }
 
-main .pa2 {
+.pa2 {
   display: flex;
-  margin: 14.6875rem 2.1875rem;
+  margin: 14.6875rem 2.1875rem 0;
   width: 10rem;
   height: 22.1875rem;
   color: #000;
@@ -70,8 +66,8 @@ main .pa2 {
   line-height: normal;
 }
 
-main .robocolorido {
+.robocolorido {
   width: 6.0625rem;
-  height: 6.0625rem;
-  margin: -31.875rem 15.0625rem;
+  height: 6.0625rem;''
+  margin: 31.875rem 15.0625rem;
 }

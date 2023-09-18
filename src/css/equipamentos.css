@@ -1,4 +1,4 @@
-/* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,8 +45,11 @@
 
 .mainEquipamentos .elementos {
     display: flex;
+    flex-direction: initial;
+    gap: 18px;
+    width: 343px;
     background-color: #7F60F9;
-    margin: 2.5rem 1rem;
+    margin: 2.5rem 0.5rem;
 }
 
 

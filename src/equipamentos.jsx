@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import './css/equipamentos.css'
 
 import segue from './images/equipamentos/segue.png'

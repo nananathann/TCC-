@@ -10,6 +10,8 @@ import led from './images/equipamentos/led.png'
 import ultrassonico from './images/equipamentos/ultrassonico.png'
 import servo from './images/equipamentos/servo.png'
 
+import pessoinha from './images/pessoinha.png'
+
 
 import carroex from './images/carroex.png'
 
@@ -83,6 +85,8 @@ function App() {
 
         <h1 className="homeEquipamentos">Equipamentos</h1>
 
+        <div className="todosEquipamentos">
+
         <div className="homeUltrassonico">
           <img src={ ultrassonico } alt="sensor ultrassonico" />
           <h2> Módulo
@@ -105,6 +109,8 @@ function App() {
           <p>R$ 0,50</p>
         </div>
 
+        </div>
+
         <div className="verMaisEquipamentos">
         
       <Link  id="verEquipamentos" to="/equipamentos">Ver mais</Link>
@@ -112,6 +118,45 @@ function App() {
 
       <div className="equipamentosLinha"></div>
 
+
+      </div>
+
+
+      <div className="PaginaProjeto">
+
+        <h1 className="h1Projetos">Projeto</h1>
+
+        <div className="videoExemplo"></div>
+
+        <div className="pInteresse">
+          <p>Caso você esteja interessado em saber mais sobre nosso projeto, aqui nos temos alguns vídeos de demonstração de funcionamento do nosso projeto.
+</p>
+        </div>
+
+        <div className="verMaisProjeto">
+      <Link  id="verProjeto" to="/Projeto">Ver mais</Link>
+      </div>
+
+      <div className="projetoLinha"></div>
+  
+      </div>
+
+
+      <div className="PaginaBibliografia">
+
+        <h1 className="h1Bibliografia">Bibliografia</h1>
+
+        <img src={pessoinha} alt="pessoa tendo uma ideia" className="imgPessoa" />
+
+        <div className="pSobreNos">
+          <p>caso esteja interessado no nosso embasamento, ou em ou que ou quem nós nos baseamos e inspiramos, acesse alguns dos links</p>
+        </div>
+
+        <div className="verMaisBibliografia">
+      <Link  id="verBibliografia" to="/Bibliografia">Ver mais</Link>
+      </div>
+
+      <div className="linhaBibliografia"></div>
 
       </div>
 

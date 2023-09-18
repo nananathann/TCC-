@@ -1,4 +1,4 @@
-import './css/Sobre.css'
+import './css/sobre.css'
 import carrinho from './images/carrinhofeito.png'
 
 import Header from './componentes/Header'
