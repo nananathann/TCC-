@@ -9,13 +9,13 @@ import Sidebar from './componentes/Sidebar'
 function Bibliografia () {
 return (
     <>
-    
 
     <Header />
 
 <body>
 
     <Sidebar />
+
     <main className='mainBibliografia'>
 
     <h1 className='h1Bibliografia'> Bibliografia</h1>
@@ -31,21 +31,29 @@ return (
 
     <div className="linha"></div>
 
+    <img src={link} alt="imagem de um simbolizador de links" id='imgLink' />
+
+
     <div className="links">
         <ul>
             <li>https://www.youtube.com/watch?v=qfQJ_C8JVwc</li>
             <li>https://youtu.be/GjL_Zg6N19Q</li>
             <li>https://youtu.be/5Gl00AlYIR0</li>
-            <li>https://youtube.com/shorts/Mmm2BA8QPvg?feature=share</li>
-            <li>https://www.makerhero.com/blog/como-fazer-um-carrinho-de-controle-remoto-simples-com-bluetooth/</li>
-            <li>https://youtube.com/shorts/AOPQhCRbnFs?feature=share</li>
-            <li>https://blog.eletrogate.com/robo-seguidor-de-linha-tutorial-completo/</li>
-            <li>https://portal.vidadesilicio.com.br/robo-seguidor-de-linha/</li>
+            <li>https://youtube.com/shorts/
+                Mmm2BA8QPvg?feature=share</li>
+            <li>https://www.makerhero.com/blog/
+                como-fazer-um-carrinho-de-controle-
+                remoto-simples-com-bluetooth/</li>
+            <li>https://youtube.com/shorts/
+                AOPQhCRbnFs?feature=share</li>
+            <li>https://blog.eletrogate.com/
+                robo-seguidor-de-linha-tutorial-completo/</li>
+            <li>https://portal.vidadesilicio.com.br/
+                robo-seguidor-de-linha/</li>
             <li>https://www.youtube.com/watch?v=82zbSgUhJdE</li>
         </ul>
     </div>
 
-    <img src={link} alt="imagem de um simbolizador de links" />
 
     </main>
 </body>
