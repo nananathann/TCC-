@@ -283,4 +283,21 @@
     margin-left: -4.875rem;
     background: none;
   }
+
+
+  /*@media only screen and (min-width: 900px) {
+
+
+    .menu {
+      
+      position: fixed;
+      
+      z-index: 1;
+    }
+    .hamburguer {
+      display: block;
+      
+    }
+
+  }
   
