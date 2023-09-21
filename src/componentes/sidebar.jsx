@@ -12,6 +12,8 @@ import bibliografia from '../images/sidebar-icons/bibliografia.png'
 function Sidebar() {
     return(
         <>
+
+        <div className="mobile">
         <input type="checkbox" id="check" />
     <label for="check">
 
@@ -47,6 +49,9 @@ function Sidebar() {
      </div>
 
     </div>
+    </div>
+
+    
 
     </>
     )

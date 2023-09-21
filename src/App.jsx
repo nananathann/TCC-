@@ -30,11 +30,11 @@ function App() {
     <div className="barra1"></div>
     
     <div className="LogoInicial">
-      <img src={robokids} alt="robokids" />
+      <img src={robokids} alt="robokids" id='Logo-Inicial' />
     </div>
 
 <div className="Robo">
-      <img src={robo} alt="robo da robokids" />
+      <img src={robo} alt="robo da robokids" id='robo-home' />
     </div>
 
     <section className='sectionHome'>

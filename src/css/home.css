@@ -510,18 +510,16 @@ gap: 1.125rem;
 
 
 @media only screen and (min-width: 900px) {
-
-  .LogoInicial {
-    width: 600px;
-    height: 447.222px;
+  #Logo-Inicial {
+    width: 550px;
+    height: 400px;
+    margin: 180px 150px 0;
   }
-  
-  .Robo {
-    width: 512px;
-    height: 512px;
-    margin-top: -3.875rem;
-    margin-inline: 12.9375rem;
-    margin-block-start: -7.1875rem;
+  #robo-home {
+    width: 360px;
+    height: 400px;
+    margin:  -330px 1230px;
+    display: block;
   }
   
   .mainHome .sectionHome{
@@ -535,160 +533,4 @@ gap: 1.125rem;
     height: 0.6875rem;
   }
   
-  #linkk {
-    width: 3.5625rem;
-    margin-left: 0.4688rem;
-    
-  }
-  
-  .linkinho {
-    border-radius: 2.5rem;
-    border: 0.1875rem solid #7F60F9;
-    height: 1.5625rem;
-    width: 4.9375rem;
-    margin-top: 1.4688rem;
-    margin-left: 2.0625rem;
-  }
-  
-  .linkinho:hover {
-    cursor: pointer;
-  }
-  
-  a {
-    display: flex;
-    justify-content: center;
-    color: #000;
-    font-family: Inter;
-    font-size: 0.9375rem;
-    font-weight:4.25rem;
-    text-decoration: none;
-  }
-  
-  #publicoalvo {
-    color: #7F60F9;
-    display: flex;
-    margin-top: 5.625rem;
-    margin-left: 2.625rem;
-    width: 8.125rem;
-    height: 5.25rem;
-    font-family: inter;
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-  
-  .publico {
-    border: 0.1875rem solid #7F60F9;
-    background: rgba(217, 217, 217, 0.00);
-    width: 11.4375rem;
-    height: 12rem;
-    border-radius: 2.1875rem;
-    margin-top: 2.1875rem;
-    margin-left: 1.25rem;
-  }
-  
-  .publico p{
-    display: flex;
-    text-align: left;
-    margin-top: 0.8125rem;
-    margin-left: 1.125rem;
-    width: 9.5875rem;
-    height: 9.375rem;
-    color: #000;
-    font-family: Inter;
-    font-size: 0.9875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  .logoFinal {
-    width: 7.375rem;
-    height: 8.125rem;
-    margin-top: -9.25rem;
-    margin-inline: 13.5625rem;
-  }
-  
-  .sobrePag {
-    background: #CCCCCC;
-  }
-  
-  .sobrePag h1{
-    color: #7F60F9;
-    display: flex;
-    margin-top: 6.375rem;
-    margin-left: 10.8125rem;
-    width: 8.125rem;
-    text-align: center;
-    font-family: Inter;
-    font-size: 2.8125rem;
-    font-style: normal;
-    font-weight: 600;
-  }
-  
-  #sobreP {
-    border:0.25rem solid #40b2a0;
-    border-radius: 3.0625rem;
-    width: 14.8125rem;
-    height: 10.5rem;
-    margin-top: 2.5rem;
-    margin-left: 2.3125rem;
-  }
-  
-  #sobreP p{
-    color: #000;
-    border-radius: 1.25rem;
-    margin-top: 0.4375rem;
-    margin-left: 0.75rem;
-    width: 12.8125rem;
-    text-align: center;
-    font-family: Inter;
-    font-size: 1.125rem;
-  }
-  
-  .sobrePag img {
-    width: 16.125rem;
-    height: 9.875rem;
-    margin-top: 3.125rem;
-    margin-left: 4.875rem;
-  }
-  
-  .verMais {
-    border-radius: 2.1875rem;
-    border: 0.3125rem solid #7F60F9;
-    height: 3.0625rem;
-    width: 8.5625rem;
-    margin-top: 2.6875rem;
-    margin-left: 7.4375rem;
-  }
-  
-  #verSobre {
-    width: 6.875rem;
-    height: 1.625rem;
-    text-align: center;
-    font-family: Inter;
-    font-size: 1.6875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 0.2125rem;
-    margin-left: 0.4375rem;
-  }
-  
-  .barraSobre {
-    background: #7F60F9;
-    width: 0.125rem;
-    height: 25rem;
-    margin-left: 22.25rem;
-    margin-right: 1.1875rem;
-    margin-top: -37.5rem;
-  }
-  
-  .barraSobre2 {
-    background: #7F60F9;
-    width: 0.125rem;
-    height: 25.9375rem;
-    margin-top: -12.5rem;
-    margin-left: 0.8125rem;
-    margin-right: 22.5625rem;
-  }
 }
