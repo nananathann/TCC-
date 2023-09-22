@@ -1,3 +1,8 @@
+
+.desktop{
+  display: none;
+}
+
 .menu {
     border-radius: 50%;
     background: #dfdfdf;
@@ -290,6 +295,234 @@
     .mobile {
       display: none;
     }
+    .desktop {
+      display: flex;
+    }
+
+     
+    
+    
+    
+    .desktop .barra {
+      background-color: #dfdfdf;
+      height: 127px;
+      width: 100%;
+      top: 0%;
+      left: 1px;
+    }
+    
+    .desktop .itens {
+      margin-top: 8.125rem;
+      display: flex;
+      background: #dfdfdf;
+      
+    }
+    
+    .desktop .inicio {
+      display: flex;
+      background: none;
+      border-radius: 1.25rem;
+      border: 0.1875rem solid #40b2a0;
+      width: 9.375rem;
+      height: 48px;
+      padding-left: 0.625rem;
+      margin-left: 1.8125rem;
+      z-index: 2;
+      
+    }
+    
+    .desktop .inicio img{
+      margin-top: 0.35rem;
+      margin-left: 0.25rem;
+      margin-right: 5.625rem;
+      background: none;
+      height: 1.875rem;
+      width: 1.875rem;
+    }
+    
+    .desktop #inici {
+    
+      color: #000;
+      font-family: Inter;
+      font-size: 28px;
+      height: 1.5rem;
+      font-weight: 600;
+      line-height: 1.875rem;
+      margin-top: 0.4375rem;
+      margin-left: -4.875rem;
+      background: none;
+    }
+    
+    .desktop .sobre {
+      display: flex;
+      background: #dfdfdf;
+      border-radius: 1.25rem;
+      border: 0.1875rem solid #40b2a0;
+      width: 9.375rem;
+      height: 48px;
+      padding-left: 0.625rem;
+      margin-top: 3.5rem;
+      margin-left: 1.8125rem;
+      
+    }
+    
+    .desktop .sobre img{
+      margin-top: 0.35rem;
+      margin-left: 0.25rem;
+      margin-right: 5.625rem;
+      background: none;
+      height: 1.875rem;
+      width: 1.875rem;
+    }
+    
+    .desktop #sobr {
+      color: #000;
+      font-family: Inter;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.875rem;
+      height: 1.5rem;
+      margin-top: 0.4375rem;
+      margin-left: -4.875rem;
+      background: none;
+    }
+    
+    .desktop .objetivos {
+      display: flex;
+      background: #dfdfdf;
+      border-radius: 1.25rem;
+      border: 0.1875rem solid #40b2a0;
+      width: 12.0625rem;
+      height: 48px;
+      padding-left: 0.625rem;
+      margin-top: 3.5rem;
+      margin-left: 1.8125rem;
+      
+    }
+    
+    .desktop .objetivos img{
+      margin-top: 0.35rem;
+      margin-left: 0.25rem;
+      margin-right: 5.625rem;
+      background: none;
+      height: 1.875rem;
+      width: 1.875rem;
+    }
+    
+    .desktop #objetiv {
+      color: #000;
+      font-family: Inter;
+      font-size: 28px;
+      font-weight: 600;
+      height: 1.5rem;
+      line-height: 1.875rem;
+      margin-top: 0.4375rem;
+      margin-left: -4.875rem;
+      background: none;
+    }
+    
+    .desktop .equipamentos {
+      display: flex;
+      background: #dfdfdf;
+      border-radius: 1.25rem;
+      border: 0.1875rem solid #40b2a0;
+      width: 15.5rem;
+      height: 48px;
+      padding-left: 0.625rem;
+      margin-top: 3.5rem;
+      margin-left: 1.8125rem;
+      
+    }
+    
+    .desktop .equipamentos img{
+      margin-top: 0.35rem;
+      margin-left: 0.25rem;
+      margin-right: 5.625rem;
+      background: none;
+      height: 1.875rem;
+      width: 1.875rem;
+    }
+    
+    .desktop #equipament {
+      color: #000;
+      font-family: Inter;
+      font-size: 28px;
+      font-weight: 600;
+      height: 1.5rem;
+      line-height: 1.875rem;
+      margin-top: 0.4375rem;
+      margin-left: -4.875rem;
+      background: none;
+    }
+    
+    .desktop .projeto {
+      display: flex;
+      background: #dfdfdf;
+      border-radius: 1.25rem;
+      border: 0.1875rem solid #40b2a0;
+      width: 10.4375rem;
+      height: 48px;
+      padding-left: 0.625rem;
+      margin-top: 3.5rem;
+      margin-left: 1.8125rem;
+      
+    }
+    
+    .desktop .projeto img{
+      margin-top: 0.35rem;
+      margin-left: 0.25rem;
+      margin-right: 5.625rem;
+      background: none;
+      height: 1.875rem;
+      width: 1.875rem;
+    }
+    
+    .desktop #projet {
+      color: #000;
+      font-family: Inter;
+      font-size: 28px;
+      font-weight: 600;
+      height: 1.5rem;
+      line-height: 1.875rem;
+      margin-top: 0.4375rem;
+      margin-left: -4.875rem;
+      background: none;
+    }
+    
+    .desktop .bibliografia {
+      display: flex;
+      background: #dfdfdf;
+      border-radius: 1.25rem;
+      border: 0.1875rem solid #40b2a0;
+      width: 13.75rem;
+      height: 48px;
+      padding-left: 0.625rem;
+      margin-top: 3.5rem;
+      margin-left: 1.8125rem;
+    }
+    
+    .desktop .bibliografia img{
+      margin-top: 0.35rem;
+      margin-left: 0.25rem;
+      margin-right: 5.625rem;
+      background: none;
+      height: 1.875rem;
+      width: 1.875rem;
+    }
+    
+    .desktop #bibliografias {
+      color: #000;
+      font-family: Inter;
+      font-size: 28px;
+      font-weight: 600;
+      height: 1.5rem;
+      line-height: 1.875rem;
+      margin-top: 0.4375rem;
+      margin-left: -4.875rem;
+      background: none;
+    }
+
+    
 
   }
   
