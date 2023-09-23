@@ -299,94 +299,95 @@
     
     .desktop {
       display: flex;
-      position: relative;
+      position: fixed;
       background-color: #dfdfdf;
-      border-radius: 60px;
-      height: 127px;
+      border-radius: 38px;
+      height: 70px;
       width: 98%;
       top: 0%;
-      margin: -40px 50px 0;
+      margin: 15px 15px 0;
     }
 
-    .desktop #Dim{
-      width: 10px;
-      height: 105px;
+     #Dimg{
+      width: 45px;
+      height: 45px;
+      margin: 19px 20px 0;
+      background: #dfdfdf;
     }
 
     
     .desktop .Ditens {
       display: flex;
       background: #dfdfdf;
-      gap: 100px;
-      margin: 40px 220px;
+      gap: 115px;
+      margin: 20px 65px;
+      font-family: Inter;
+
+      font-weight: 600;
       
     }
     
     .desktop .Dinicio {
-      
-      
-      
+      background: #dfdfdf;
     }
     
-    
-      
     
     .desktop #Dinici {
       background: none;
-      font-size: 45px;
+      font-size: 30px;
     }
     
     .desktop .Dsobre {
+      background: #dfdfdf;
       
     }
-    
-    
+
     
     .desktop #Dsobr {
-      
+      background: #dfdfdf;
+      font-size: 30px;
     }
     
     .desktop .Dobjetivos {
-      
+      background: #dfdfdf;
     }
     
     
     
     .desktop #Dobjetiv {
-      
+      background: #dfdfdf;
+      font-size: 30px;
     }
     
     .desktop .Dequipamentos {
-      
+      background: #dfdfdf;
     }
-    
     
     
     .desktop #Dequipament {
-      
+      background: #dfdfdf;
+      font-size: 30px;
     }
     
     .desktop .Dprojeto {
-      
+      background: #dfdfdf;
     }
     
     
     
     .desktop #Dprojet {
-      
+      background: #dfdfdf;
+      font-size: 30px;
     }
     
     .desktop .Dbibliografia {
-      
+      background: #dfdfdf;
     }
     
-    
-    
+
     .desktop #Dbibliografias {
-      
+      background: #dfdfdf;
+      font-size:30px;
     }
-
-    
-
   }
   
