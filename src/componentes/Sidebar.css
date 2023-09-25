@@ -319,17 +319,17 @@
     
     .desktop .Ditens {
       display: flex;
+      width: 98%;
       background: #dfdfdf;
       gap: 115px;
       margin: 20px 65px;
       font-family: Inter;
-
       font-weight: 600;
-      
     }
     
     .desktop .Dinicio {
       background: #dfdfdf;
+  
     }
     
     
@@ -347,6 +347,7 @@
     .desktop #Dsobr {
       background: #dfdfdf;
       font-size: 30px;
+
     }
     
     .desktop .Dobjetivos {
@@ -358,6 +359,7 @@
     .desktop #Dobjetiv {
       background: #dfdfdf;
       font-size: 30px;
+      position: absolute;
     }
     
     .desktop .Dequipamentos {

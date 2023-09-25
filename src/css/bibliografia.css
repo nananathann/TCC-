@@ -91,3 +91,97 @@ li {
   margin-top: 9rem;
   margin-left: 13.5rem;
 }
+
+
+
+
+
+@media only screen and (min-width: 900px) {
+
+  .h1Bibliografia {
+    display: none;
+  }
+    
+  .paragrafo {
+    width: 874px;
+    height: 123px;
+    margin-left: 1rem;
+    border-radius: 1.5625rem;
+    border: 0.3125rem solid #40B2A0;
+  }
+  
+  .paragrafo p {
+      width: 838px;
+      height: 90px;
+      margin-top: 0.375rem;
+      margin-left: 0.8125rem;
+      font-family: Inter;
+      font-size: 21px;
+      font-weight: 600;
+  }
+  
+  .paragrafo2{
+    width: 1025px;
+    height: 101px;
+    margin: 1.25rem 6rem;
+    border-radius: 1.5625rem;
+    border: 0.3125rem solid #40B2A0;
+  }
+  
+  .paragrafo2 p{
+    display: flex;
+      width: 17rem;
+      height: 3.4375rem;
+      margin-top: 0.3438rem;
+      margin-left: 0.5rem;
+      margin-right: 0.625rem;
+      font-family: Inter;
+      text-align: end;
+      font-size: 0.625rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+  }
+  
+  .linha {
+    background: #7F60F9;
+    width: 0.125rem;
+    height: 17rem;
+    margin-top: -15rem;
+    margin-left: 0.5rem;
+    margin-right: 22.5625rem;
+  }
+  
+  .links {
+      width: 13rem;
+      height: 25rem;
+      margin-top: -17rem;
+      border-radius: 1.875rem;
+      border: 0.3125rem solid #7F60F9;
+  }
+  
+  ul{
+    width: 7rem;
+    height: 20rem;
+    margin-top: 1.7rem;
+    margin-left: 1.25rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  li {
+    margin-top: 0.375rem;
+  }
+  
+  #imgLink {
+    width: 8.625rem;
+    height: 8.625rem;
+    margin-top: 9rem;
+    margin-left: 13.5rem;
+  }
+
+}
+
