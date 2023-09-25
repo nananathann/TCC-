@@ -35,3 +35,37 @@ background: #7E7E7E;
   border-radius: 0.9375rem;
   background: #7E7E7E;
 }
+
+
+
+@media only screen and (min-width: 900px) {
+
+  .mainProjeto h1 {
+    margin: 3.6875rem 6.8125rem;
+    color: #7F60F9;
+    }
+  
+  .video1 {
+    background: black;
+    width: 427px;
+    height: 908px;
+    margin: 280px 490px;
+    border-radius: 0.9375rem;
+  }
+  
+  .video2 {
+      width: 319px;
+      height: 692px;
+      border-radius: 0.9375rem;
+  background: #7E7E7E;
+  }
+  
+  .video3 {
+    width: 319px;
+    height: 692px;
+    margin-top: -11.1875rem;
+    margin-left: 10.8125rem;
+    border-radius: 0.9375rem;
+    background: #7E7E7E;
+  }
+}
