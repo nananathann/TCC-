@@ -16,9 +16,11 @@ return (
         <main className='mainProjeto'>
             <h1 className='h1Projeto'>Projeto</h1>
 
+<div className="videos">
             <div className='video1'></div>
             <div className='video2'></div>
             <div className='video3'></div>
+            </div>
         </main>
         
         </body>
