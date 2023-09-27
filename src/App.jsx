@@ -13,16 +13,14 @@ import servo from './images/equipamentos/servo.png'
 import pessoinha from './images/pessoinha.png'
 
 
-import carroex from './images/carroex.png'
+import carroex from './images/carroEx.png'
 
 
 function App() {
 
   return (
     <>
-    
     <Header />
-
     <body>
 
       <Sidebar />
@@ -56,7 +54,7 @@ function App() {
 
       
       <div className="logoFinal">
-        <img src={robokids} alt="robokids" />
+        <img src={robokids} alt="robokids" id='logo-Final' />
 
       </div>
       
@@ -69,7 +67,9 @@ function App() {
         <p>O nosso projeto será um carrinho de brinquedo com sensores ultrassônicos, segue linha, e servos, com o intuído de estimular o desenvolvimento físico e distrair o neném</p>
       </div>
 
+      <div className="carrinhoExemplo">
       <img src={carroex} alt="img do carrinho exemplo" className="carrinho" />
+      </div>
 
       <div className="verMais">
         

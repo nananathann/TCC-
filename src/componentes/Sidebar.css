@@ -306,14 +306,13 @@
       height: 70px;
       width: 98%;
       top: 0%;
-      margin: 15px 15px 0;
-      max-width: max-content;
+      margin: 15px 20px 0 20px;
     }
 
      #Dimg{
       width: 45px;
       height: 45px;
-      margin: 19px 20px 0;
+      margin: 14px 20px 0;
       background: #dfdfdf;
     }
 

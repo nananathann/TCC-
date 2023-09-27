@@ -10,18 +10,14 @@
   background: #7F60F9;
   width: 0.125rem;
   height: 22.0625rem;
-  margin-left: 22.25rem;
-  margin-right: 1.1875rem;
-  margin-top: 1.4375rem;
+  margin:1.4375rem 1.1875rem 0 22.25rem;
 }
 
 .barra2 {
   background: #7F60F9;
   width: 0.125rem;
   height: 21.5625rem;
-  margin-top: -19.0625rem;
-  margin-left: 0.8125rem;
-  margin-right: 22.5625rem;
+  margin: -19.0625rem 22.5625rem 0 0.8125rem;
 }
 
 .mainHome {
@@ -30,26 +26,30 @@
 }
 
 .LogoInicial {
+  margin:-18rem 0.5rem 0;
   width: 9.375rem;
-  margin-top: -19.0625rem;
-  margin-left: 0.3125rem;
 }
 
-.robo-home {
+#Logo-Inicial {
+  width: 9.375rem;
+}
+
+.Robo {
+  margin: -3.8rem 12.9375rem 0;
+  width: 7rem;
+}
+
+#robo-home {
   width: 7.675rem;
   height: 9.75rem;
-  margin-top: -3.875rem;
-  margin-inline: 12.9375rem;
-  margin-block-start: -7.1875rem;
 }
 
 .mainHome .sectionHome{
   color: #000;
-  margin-top: -3.625rem;
+  margin-top: -4.5rem;
   margin-left: 1.1875rem;
   font-family: Inter;
   font-size: 0.625rem;
-  line-height: 0.625rem;
   width: 11.4375rem;
   height: 0.6875rem;
 }
@@ -57,7 +57,6 @@
 #linkk {
   width: 3.5625rem;
   margin-left: 0.4688rem;
-  
 }
 
 .linkinho {
@@ -76,7 +75,6 @@
 a {
   display: flex;
   justify-content: center;
-  color: #000;
   font-family: Inter;
   font-size: 0.9375rem;
   font-weight:4.25rem;
@@ -123,8 +121,13 @@ a {
 .logoFinal {
   width: 7.375rem;
   height: 8.125rem;
-  margin-top: -9.25rem;
+  margin-top: -155px;
   margin-inline: 13.5625rem;
+}
+
+#logo-Final {
+  width: 7.375rem;
+  height: 8.125rem;
 }
 
 .sobrePag {
@@ -211,8 +214,6 @@ a {
   margin-right: 22.5625rem;
 }
 
-
-
 .homeEquipamentos {
   color: #7F60F9;
   font-family: Inter;
@@ -228,10 +229,6 @@ display: flex;
 margin: 4.375rem 1.75rem 0;
 gap: 1.125rem;
 }
-
-
-
-
 
 .homeUltrassonico {
   width: 5.625rem;
@@ -270,9 +267,6 @@ gap: 1.125rem;
   background: #FFF;
 }
 
-
-
-
 .homeServo {
   width: 5.625rem;
   height: 15rem;
@@ -303,8 +297,6 @@ gap: 1.125rem;
   font-size: 1.25rem;
   background: #FFF;
 }
-
-
 
 .homeLed {
   width: 5.625rem;
@@ -338,8 +330,6 @@ gap: 1.125rem;
   background: #FFF;
 }
 
-
-
 .verMaisEquipamentos {
   border-radius: 2.1875rem;
   border: 0.3125rem solid #7F60F9;
@@ -367,9 +357,6 @@ gap: 1.125rem;
   margin-top: -33rem;
 }
 
-
-
-
 .h1Projetos{
   width: 11.6875rem;
   height: 3.125rem;
@@ -379,7 +366,6 @@ gap: 1.125rem;
   font-size: 3.125rem;
 }
 
-
 .videoExemplo{
   width: 19.125rem;
   height: 13.375rem;
@@ -387,7 +373,6 @@ gap: 1.125rem;
   border-radius: 0.875rem;
   background: #7E7E7E;
 }
-
 
 .pInteresse{
   width: 19.125rem;
@@ -397,7 +382,6 @@ gap: 1.125rem;
   border: 0.3125rem solid #40B2A0;
 }
 
-
 .pInteresse p{
   width: 15rem;
   height: 11.625rem;
@@ -406,7 +390,6 @@ gap: 1.125rem;
   font-family: Inter;
   font-size: 1.375rem;
 }
-
 
 .verMaisProjeto{
   border-radius: 2.1875rem;
@@ -426,7 +409,6 @@ gap: 1.125rem;
   margin-left: 0.4375rem;
 }
 
-
 .projetoLinha{
   background: #7F60F9;
   width: 0.125rem;
@@ -434,8 +416,6 @@ gap: 1.125rem;
   margin-top: -42rem;
   margin-left: 0.8125rem;
 }
-
-
 
 .h1Bibliografia{
   width: 13.8125rem;
@@ -446,13 +426,11 @@ gap: 1.125rem;
   font-size: 2.5rem;
 }
 
-
 .imgPessoa{
   width: 12.5rem;
   height: 12.4375rem;
   margin: 2.8125rem 1.625rem 0;
 }
-
 
 .pSobreNos{
   width: 16.625rem;
@@ -470,7 +448,6 @@ gap: 1.125rem;
   font-family: Inter;
   font-size: 1.375rem;
 }
-
 
 .verMaisBibliografia{
   border-radius: 2.1875rem;
@@ -502,36 +479,324 @@ gap: 1.125rem;
 }
 
 
-
-
-
-
-
-
-
 @media only screen and (min-width: 900px) {
 
-  #Logo-Inicial {
-    width: 550px;
-    height: 400px;
-    margin: 180px 150px 0;
+  .LogoInicial {
+    margin:-18rem 0.5rem 0;
+    width: 9.375rem;
+    margin: -66rem 8.125rem 0;
   }
+
+  #Logo-Inicial {
+    width: 22rem;
+    height: 21.125rem;
+    
+  }
+
   #robo-home {
-    width: 360px;
-    height: 400px;
-    margin:  -330px 850px;
-    display: block;
+    width: 24.4375rem;
+    height: 26.9375rem;
+    margin: -13rem 62rem;
+    display: flex;
   }
   
   .mainHome .sectionHome{
-    color: #000;
-    margin-top: -3.625rem;
-    margin-left: 1.1875rem;
+    width: 40.6875rem;
+    height: 2.125rem;
+    margin: 5rem 10rem 0;
+    text-align: center;
     font-family: Inter;
-    font-size: 0.625rem;
-    line-height: 0.625rem;
-    width: 11.4375rem;
-    height: 0.6875rem;
+    font-size: 2.5rem;
+  }
+
+  #linkk {
+    width: 12.5rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 3.125rem;
+    margin: 0.02rem 1.5rem;
+  }
+  
+  .linkinho {
+    border-radius: 2.5rem;
+    border: 0.1875rem solid #7F60F9;
+    width: 15.8125rem;
+    height: 4.1875rem;
+    margin-top: 3.5rem;
+    margin-left: 10.3rem;
+  }
+  
+  a {
+    color: #000;
+    font-family: Inter;
+    text-decoration: none;
+  }
+  
+  #publicoalvo {
+    color: #7F60F9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 6.5625rem;
+    width: 30.625rem;
+    margin: 8.125rem 18.125rem 0;
+  }
+  
+  .publico {
+    width: 48.75rem;
+    height: 11.75rem;
+    border-radius: 3.0625rem;
+    border: 0.3125rem solid #7F60F9;
+    margin: 11.875rem 14.375rem;
+  }
+  
+  .publico p{
+    width: 41.25rem;
+    height: 7.875rem;
+    margin-left: 3.125rem;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 1.875rem;
+  }
+  
+  .logoFinal {
+    width: 27.5rem;
+    height: 20.5rem;
+    margin-top: -33rem;
+    margin-inline: 82rem;
+  }
+  
+  #logo-Final {
+    width: 22rem;
+    height: 21.125rem;
+  }
+
+  .barra1 {
+    background: #7F60F9;
+    width: 0.1875rem;
+    height: 64.7502rem;
+    margin: 6.25rem 115.625rem;
+  }
+  
+  .barra2 {
+    background: #7F60F9;
+    width: 3px;
+    height: 1170px;
+    margin: -500px 74px;
+  }
+  
+  .sobrePag h1{
+    width: 316px;
+    color: #7F60F9;
+    font-family: Inter;
+    font-size: 120px;
+  }
+  
+  #sobreP {
+    width: 570px;
+    height: 340px;
+    margin: 280px 257px;
+    border-radius: 49px;
+    border: 5px solid #40B2A0;
+  }
+  
+  #sobreP p{
+    width: 520px;
+    margin: 20px;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 40px;
+  }
+
+  .carrinhoExemplo{
+    margin: -950px 950px;
+  }
+  
+  .sobrePag img {
+    width: 600px;
+    height: 446px;
+  }
+  
+  /*
+  .verMais {
+    background-color: #000;
+    width: 240px;
+    height: 73px;
+    margin: -100px 700px;
+  }
+  
+  #verSobre {
+    width: 192px;
+    height: 58px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+  }
+  */
+  
+  .barraSobre {
+    background: #7F60F9;
+    width: 3px;
+    height: 766px;
+    margin: 90rem 115.625rem;
+  }
+  
+  .barraSobre2 {
+    background: #7F60F9;
+    width: 3px;
+    height: 668px;
+    margin-top: -1890px;
+    margin-left: 74px;
+  }
+
+
+
+
+/**/
+
+
+
+
+  .homeEquipamentos {
+    color: #7F60F9;
+    font-family: Inter;
+    font-size: 2.5rem;
+    margin-top: 60rem;
+    margin-left: 3.0625rem;
+  
+  }
+  
+  .todosEquipamentos  {
+  height: 18.75rem;
+  display: flex;
+  margin: 4.375rem 1.75rem 0;
+  gap: 1.125rem;
+  }
+  
+  .homeUltrassonico {
+    width: 5.625rem;
+    height: 15rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+  
+  }
+  
+  .homeUltrassonico img {
+    width: 5rem;
+    height: 3rem;
+    margin-top: 1.9375rem;
+    margin-left: 0.3125rem;
+  }
+  
+  .homeUltrassonico h2{
+    color: #40B2A0;
+    width: 5rem;
+    margin-top: 1.375rem;
+    margin-left: 0.3125rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    background: #FFF;
+  }
+  
+  .homeUltrassonico p {
+    color: #000;
+    width: 4.125rem;
+    margin-top: 0.9375rem;
+    margin-left: 0.75rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    background: #FFF;
+  }
+  
+  .homeServo {
+    width: 5.625rem;
+    height: 15rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+  }
+  
+  .homeServo img{
+    width: 4.5625rem;
+    height: 4.625rem;
+    margin:1.3125rem 0.5313rem;
+  }
+  
+  .homeServo h2{
+    color: #40B2A0;
+    margin-top: 0.1875rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    background: #FFF;
+  }
+  
+  .homeServo p {
+    color: #000;
+    margin: 1.5625rem 0.875rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    background: #FFF;
+  }
+  
+  .homeLed {
+    width: 5.625rem;
+    height: 15rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+  }
+  
+  .homeLed img {
+    width: 4.5625rem;
+    height: 4.5625rem;
+    margin: 1.375rem 0.5313rem;
+  }
+  
+  .homeLed h2{
+    color: #40B2A0;
+    margin: 0.25rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.8125rem;
+    background: #FFF;
+  }
+  
+  .homeLed p {
+    width: 3.75rem;
+    color: #000;
+    margin: 1.375rem 0.875rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    background: #FFF;
+  }
+  
+  .verMaisEquipamentos {
+    border-radius: 2.1875rem;
+    border: 0.3125rem solid #7F60F9;
+    height: 3.0625rem;
+    width: 8.5625rem;
+    margin:0.9375rem 7.4375rem;
+  }
+  
+  #verEquipamentos {
+    width: 6.875rem;
+    height: 1.625rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.6875rem;
+    margin-top: 0.2125rem;
+    margin-left: 0.4375rem;
+  }
+  
+  .equipamentosLinha {
+    background: #7F60F9;
+    width: 0.125rem;
+    height: 35rem;
+    margin-left: 22.25rem;
+    margin-right: 1.1875rem;
+    margin-top: -33rem;
   }
   
 }
