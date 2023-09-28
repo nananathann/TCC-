@@ -37,6 +37,10 @@
   margin: -27rem 2.8125rem;
 }
 
+.imgCarrinho {
+  width: 16.875rem;
+  height: 13.875rem;
+}
 
 .p2{
   width: 16.8125rem;
@@ -54,7 +58,79 @@
   text-align: center;
   font-family: Inter;
   font-size: 1.1875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+}
+
+@media only screen and (min-width: 900px) {
+
+  .mainSobre h1{
+    color: #7F60F9;
+    display: flex;
+    width: 12.5rem;
+    height: 4.25rem;
+    margin: 4rem 49rem 0;
+    font-family: Inter;
+    font-size: 4.375rem;
+    }
+  
+  .p1{
+    width: 19.75rem;
+    height: 29rem;
+    border-radius: 3.0625rem;
+    border: 0.3125rem solid #7F60F9;
+    margin: 8rem 80rem 0;
+  }
+  
+  .p1 p{
+    width: 17.1875rem;
+    height: 23.75rem;
+    border-radius: 1.25rem;
+    margin: 0.5rem 1.25rem;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.0625rem;
+  }
+  
+  .carro{
+    width: 16.8125rem;
+    height: 13.875rem;
+    margin: -54rem 14rem 10rem;
+  }
+  
+  .imgCarrinho {
+    width: 50rem;
+    height: 35.25rem;
+  }
+  
+  .p2{
+    width: 58.25rem;
+    height: 8.4375rem;
+    margin: 7rem 29rem ;
+    border-radius: 3.0625rem;
+    border: 0.3125rem solid #40B2A0;
+  }
+  
+  .p2 p{
+    width: 54.5rem;
+    height: 6.3125rem;
+    margin: -1.7rem 1.125rem;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.9375rem;
+  }
+
+  .linhaSobre {
+    width: 0.1875rem;
+    height: 37.5rem;
+    background: #7F60F9;
+    margin: -34rem 3rem;
+  }
+
+  .linhaSobre2 {
+    width: 0.1875rem;
+    height: 37.5rem;
+    background: #7F60F9;
+    margin: 18rem 115.625rem 10px;
+  }
 }

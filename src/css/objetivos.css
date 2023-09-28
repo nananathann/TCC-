@@ -67,6 +67,67 @@
 }
 
 #robocolorido {
+  width: 97px;
+  height: 97px;
   margin: 130px 230px;
   display: flex;
+}
+
+@media only screen and (min-width: 900px) {
+
+  .deitada{
+    display: flex;
+    margin: -19rem 36.5rem 0;
+    stroke-width: 0.125rem;
+    background: #40B2A0;
+    width: 57rem;
+    height: 0.125rem;
+  }
+  
+  
+  
+  .bonequinhos {
+    width: 213px;
+    height: 213px;
+    margin: 120px 120px;
+  }
+  
+  .pa1 {
+    width: 1050px;
+    height: 146px;
+    margin: 1.5rem 34rem 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 29px;
+  }
+  
+  .objetivinhos {
+    display: none;
+  }
+  
+  .deitada2 {
+    display: flex;
+    background: #40B2A0;
+    width: 58rem;
+    height: 0.125rem;
+    margin: -19rem 18rem 0;
+    
+  }
+  
+  .pa2 {
+    display: flex;
+    margin: 1.5rem 16rem 0;
+    width: 1060px;
+    height: 227px;
+    color: #000;
+    font-family: Inter;
+    font-size: 29px;
+  }
+  
+  #robocolorido {
+    width: 213px;
+    height: 213px;
+    margin: 8.125rem 95rem;
+    display: flex;
+  }
 }

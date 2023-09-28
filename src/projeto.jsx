@@ -18,7 +18,9 @@ return (
 
 <div className="videos">
             <div className='video1'></div>
-            <div className='video2'></div>
+            <div className='video2'>
+                aqui tera videos do projeto em funcionamento enos outros 2 tmbm obvio
+            </div>
             <div className='video3'></div>
             </div>
         </main>

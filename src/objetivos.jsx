@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom'
 import './css/objetivos.css'
-import bonecos from './images/bonecos.png'
-import robocolorido from './images/robocolorido.png'
+import bonecos from './images/bonecoss.png'
+import robocolorido from './images/roboColorido.png'
 
 import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'

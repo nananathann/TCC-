@@ -1,5 +1,5 @@
 import './css/bibliografia.css'
-import link from './images/link.png'
+import link from './images/Link.png'
 
 import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'
@@ -28,7 +28,8 @@ return (
         <p>A diferença será que ele não será movido a controles e sim sensores de aproximação onde o carrinho fica livre para andar uma área especifica. Vimos também alguns vídeos que mostram como funciona o sistema bluetooth pois ainda não está definido mas pretendemos fazer um app que monitora o carro.</p>
     </div>
 
-    <div className="linha"></div>
+    <div className="linhaBiblio"></div>
+    <div className="linhaBiblio2"></div>
 
     <img src={link} alt="imagem de um simbolizador de links" id='imgLink' />
 

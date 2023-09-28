@@ -1,5 +1,5 @@
 import './css/sobre.css'
-import carrinho from './images/carrinhofeito.png'
+import carrinho from './images/CarrinhoFeito.png'
 
 import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'
@@ -31,6 +31,9 @@ function Sobre() {
       <div className="carro">
       <img className='imgCarrinho' src={carrinho} alt="exemplo de carrinho que ja foi feito" />
       </div>
+
+     <div className="linhaSobre"></div>
+     <div className="linhaSobre2"></div>
         
     </main>
 
