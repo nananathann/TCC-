@@ -71,12 +71,16 @@ function App() {
       <img src={carroex} alt="img do carrinho exemplo" className="carrinho" />
       </div>
 
+      <div className="barraSobre"></div>
+      <div className="barraSobre2"></div>
+      
       <div className="verMais">
+      
         
       <Link  id="verSobre" to="/sobre">Ver mais</Link>
       </div>
-      <div className="barraSobre"></div>
-      <div className="barraSobre2"></div>
+      
+      
 
       </div>
 

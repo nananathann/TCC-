@@ -579,88 +579,84 @@ gap: 1.125rem;
   
   .barra2 {
     background: #7F60F9;
-    width: 3px;
-    height: 1170px;
-    margin: -500px 74px;
+    width: 0.1875rem;
+    height: 73.125rem;
+    margin: -31.25rem 4.625rem;
+  }
+
+  .sobrePag {
+    height: 81.25rem;
   }
   
   .sobrePag h1{
-    width: 316px;
+    width: 19.75rem;
     color: #7F60F9;
     font-family: Inter;
-    font-size: 120px;
+    font-size: 7.5rem;
   }
   
   #sobreP {
-    width: 570px;
-    height: 340px;
-    margin: 280px 257px;
-    border-radius: 49px;
-    border: 5px solid #40B2A0;
+    width: 35.625rem;
+    height: 21.25rem;
+    margin: 17.5rem 16.0625rem;
+    border-radius: 3.0625rem;
+    border: 0.3125rem solid #40B2A0;
   }
   
   #sobreP p{
-    width: 520px;
-    margin: 20px;
+    width: 32.5rem;
+    margin: 1.25rem;
     text-align: justify;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .carrinhoExemplo{
-    margin: -950px 950px;
+    width: 40.625rem;
+    margin: -59.375rem 59.375rem;
   }
   
   .sobrePag img {
-    width: 600px;
-    height: 446px;
+    width: 37.5rem;
+    height: 27.875rem;
   }
   
-  /*
+  
   .verMais {
-    background-color: #000;
-    width: 240px;
-    height: 73px;
-    margin: -100px 700px;
+    width: 15rem;
+    height: 4.6875rem;
+    margin: 112.5rem 50rem 0;
   }
   
   #verSobre {
-    width: 192px;
-    height: 58px;
+    width: 12rem;
+    height: 3.625rem;
+    margin-left: 1.125rem;
     text-align: center;
     font-family: Inter;
-    font-size: 45px;
+    font-size: 2.8125rem;
   }
-  */
   
   .barraSobre {
     background: #7F60F9;
-    width: 3px;
-    height: 766px;
-    margin: 90rem 115.625rem;
+    display: flex;
+    width: 0.1875rem;
+    height: 41.75rem;
+    margin: 53.125rem 115.625rem;
   }
   
   .barraSobre2 {
     background: #7F60F9;
-    width: 3px;
-    height: 668px;
-    margin-top: -1890px;
-    margin-left: 74px;
+    width: 0.1875rem;
+    height: 47.875rem;
+    margin: -115.625rem 4.625rem;
   }
-
-
-
-
-/**/
-
-
-
 
   .homeEquipamentos {
     color: #7F60F9;
     font-family: Inter;
     font-size: 2.5rem;
-    margin-top: 60rem;
+    margin-top: 6rem;
     margin-left: 3.0625rem;
   
   }
