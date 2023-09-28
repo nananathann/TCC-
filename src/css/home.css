@@ -625,13 +625,13 @@ gap: 1.125rem;
   .verMais {
     width: 15rem;
     height: 4.6875rem;
-    margin: 112.5rem 50rem 0;
+    margin: 117rem 50rem 0;
   }
   
   #verSobre {
     width: 12rem;
     height: 3.625rem;
-    margin-left: 1.125rem;
+    margin-left: 1.1rem;
     text-align: center;
     font-family: Inter;
     font-size: 2.8125rem;
@@ -641,7 +641,7 @@ gap: 1.125rem;
     background: #7F60F9;
     display: flex;
     width: 0.1875rem;
-    height: 41.75rem;
+    height: 49rem;
     margin: 53.125rem 115.625rem;
   }
   
@@ -649,15 +649,16 @@ gap: 1.125rem;
     background: #7F60F9;
     width: 0.1875rem;
     height: 47.875rem;
-    margin: -115.625rem 4.625rem;
+    margin: -123rem 4.625rem;
   }
 
   .homeEquipamentos {
     color: #7F60F9;
     font-family: Inter;
-    font-size: 2.5rem;
-    margin-top: 6rem;
-    margin-left: 3.0625rem;
+    font-size: 100px;
+    width: 746px;
+    margin-top: -10rem;
+    margin-left: 36rem;
   
   }
   
@@ -669,9 +670,9 @@ gap: 1.125rem;
   }
   
   .homeUltrassonico {
-    width: 5.625rem;
-    height: 15rem;
-    border-radius: 1.25rem;
+    width: 314px;
+    height: 376px;
+    border-radius: 20px;
     background: #FFF;
   
   }
@@ -706,8 +707,8 @@ gap: 1.125rem;
   }
   
   .homeServo {
-    width: 5.625rem;
-    height: 15rem;
+    width: 314px;
+    height: 376px;
     border-radius: 1.25rem;
     background: #FFF;
   }
@@ -737,8 +738,8 @@ gap: 1.125rem;
   }
   
   .homeLed {
-    width: 5.625rem;
-    height: 15rem;
+    width: 314px;
+    height: 376px;
     border-radius: 1.25rem;
     background: #FFF;
   }

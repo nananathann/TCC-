@@ -73,7 +73,7 @@ function App() {
 
       <div className="barraSobre"></div>
       <div className="barraSobre2"></div>
-      
+
       <div className="verMais">
       
         
@@ -93,7 +93,7 @@ function App() {
         <div className="todosEquipamentos">
 
         <div className="homeUltrassonico">
-          <img src={ ultrassonico } alt="sensor ultrassonico" />
+          <img src={ ultrassonico} alt="sensor ultrassonico" />
           <h2> Módulo
             Sensor de
             Distância
