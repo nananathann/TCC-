@@ -482,7 +482,6 @@ gap: 1.125rem;
 @media only screen and (min-width: 900px) {
 
   .LogoInicial {
-    margin:-18rem 0.5rem 0;
     width: 9.375rem;
     margin: -66rem 8.125rem 0;
   }
@@ -655,136 +654,136 @@ gap: 1.125rem;
   .homeEquipamentos {
     color: #7F60F9;
     font-family: Inter;
-    font-size: 100px;
-    width: 746px;
-    margin-top: -10rem;
-    margin-left: 36rem;
+    font-size: 6.25rem;
+    width: 46.625rem;
+    margin-top: -7rem;
+    margin-left: 38rem;
   
   }
   
   .todosEquipamentos  {
-  height: 18.75rem;
+  height: 26.5rem;
   display: flex;
-  margin: 4.375rem 1.75rem 0;
-  gap: 1.125rem;
+  margin: 7rem 6rem 0;
+  gap: 20rem;
   }
   
   .homeUltrassonico {
-    width: 314px;
-    height: 376px;
-    border-radius: 20px;
+    width: 21.875rem;
+    height: 26.25rem;
+    border-radius: 1.25rem;
     background: #FFF;
   
   }
   
   .homeUltrassonico img {
-    width: 5rem;
-    height: 3rem;
-    margin-top: 1.9375rem;
-    margin-left: 0.3125rem;
+    width: 14.9375rem;
+    height: 8.625rem;
+    margin: 2.7rem 3rem;
   }
   
   .homeUltrassonico h2{
     color: #40B2A0;
-    width: 5rem;
-    margin-top: 1.375rem;
-    margin-left: 0.3125rem;
+    width: 17rem;
+    height: 3.75rem;
+    margin: 0 2.1rem 0;
     text-align: center;
     font-family: Inter;
-    font-size: 0.8125rem;
+    font-size: 1.6875rem;
     background: #FFF;
   }
   
   .homeUltrassonico p {
     color: #000;
-    width: 4.125rem;
-    margin-top: 0.9375rem;
-    margin-left: 0.75rem;
+    width: 6.875rem;
+    height: 1.875rem;
     text-align: center;
     font-family: Inter;
-    font-size: 1.25rem;
+    font-size: 1.875rem;
+    margin: 3.4rem 6.7rem 0;
     background: #FFF;
   }
   
   .homeServo {
-    width: 314px;
-    height: 376px;
+    width: 21.875rem;
+    height: 26.25rem;
     border-radius: 1.25rem;
     background: #FFF;
   }
   
   .homeServo img{
-    width: 4.5625rem;
-    height: 4.625rem;
-    margin:1.3125rem 0.5313rem;
+    width: 16.5625rem;
+    height: 13.125rem;
+    margin:1rem 3.4rem;
   }
   
   .homeServo h2{
     color: #40B2A0;
-    margin-top: 0.1875rem;
+    margin-top: 1rem;
     text-align: center;
     font-family: Inter;
-    font-size: 0.8125rem;
+    font-size: 28px;
     background: #FFF;
   }
   
   .homeServo p {
     color: #000;
-    margin: 1.5625rem 0.875rem;
+    margin: 2.9rem 0.9rem;
     text-align: center;
     font-family: Inter;
-    font-size: 1.25rem;
+    font-size: 30px;
     background: #FFF;
   }
   
   .homeLed {
-    width: 314px;
-    height: 376px;
+    width: 350px;
+    height: 420px;
     border-radius: 1.25rem;
     background: #FFF;
   }
   
   .homeLed img {
-    width: 4.5625rem;
-    height: 4.5625rem;
-    margin: 1.375rem 0.5313rem;
+    width: 221px;
+    height: 216px;
+    margin: .7rem 4rem;
   }
   
   .homeLed h2{
     color: #40B2A0;
-    margin: 0.25rem;
+    margin: 1rem;
     text-align: center;
     font-family: Inter;
-    font-size: 0.8125rem;
+    font-size: 28px;
     background: #FFF;
   }
   
   .homeLed p {
-    width: 3.75rem;
+    width: 6rem;
     color: #000;
-    margin: 1.375rem 0.875rem;
+    margin: 2.8rem 7.6rem;
     text-align: center;
     font-family: Inter;
-    font-size: 1.25rem;
+    font-size: 1.875rem;
     background: #FFF;
   }
   
   .verMaisEquipamentos {
     border-radius: 2.1875rem;
     border: 0.3125rem solid #7F60F9;
-    height: 3.0625rem;
-    width: 8.5625rem;
-    margin:0.9375rem 7.4375rem;
+    width: 314px;
+    height: 73px;
+    margin:6rem 48.9rem;
   }
   
   #verEquipamentos {
-    width: 6.875rem;
-    height: 1.625rem;
+    width: 13.25rem;
+    height: 1rem;
+    margin: 0.1rem 2.7rem;
+    line-height: 60px;
     text-align: center;
     font-family: Inter;
-    font-size: 1.6875rem;
-    margin-top: 0.2125rem;
-    margin-left: 0.4375rem;
+    font-size: 60px;
+
   }
   
   .equipamentosLinha {
@@ -794,6 +793,66 @@ gap: 1.125rem;
     margin-left: 22.25rem;
     margin-right: 1.1875rem;
     margin-top: -33rem;
+  }
+
+  .h1Projetos{
+    width: 11.6875rem;
+    height: 3.125rem;
+    margin: 15rem 2.125rem 0;
+    color: #7F60F9;
+    font-family: Inter;
+    font-size: 3.125rem;
+  }
+  
+  .videoExemplo{
+    width: 19.125rem;
+    height: 13.375rem;
+    margin: 3.5rem 2rem 0;
+    border-radius: 0.875rem;
+    background: #7E7E7E;
+  }
+  
+  .pInteresse{
+    width: 19.125rem;
+    height: 13rem;
+    margin: 2.4375rem 2rem 0;
+    border-radius: 3.0625rem;
+    border: 0.3125rem solid #40B2A0;
+  }
+  
+  .pInteresse p{
+    width: 15rem;
+    height: 11.625rem;
+    margin: 0.5625rem 2rem 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.375rem;
+  }
+  
+  .verMaisProjeto{
+    border-radius: 2.1875rem;
+    border: 0.3125rem solid #7F60F9;
+    height: 3.0625rem;
+    width: 8.5625rem;
+    margin:0.9375rem 7.4375rem;
+  }
+  
+  #verProjeto {
+    width: 6.875rem;
+    height: 1.625rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.6875rem;
+    margin-top: 0.2125rem;
+    margin-left: 0.4375rem;
+  }
+  
+  .projetoLinha{
+    background: #7F60F9;
+    width: 0.125rem;
+    height: 45rem;
+    margin-top: -42rem;
+    margin-left: 0.8125rem;
   }
   
 }

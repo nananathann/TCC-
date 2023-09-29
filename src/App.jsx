@@ -6,9 +6,9 @@ import robo from './images/robo-12.png'
 import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'
 
-import led from './images/equipamentos/led.png'
-import ultrassonico from './images/equipamentos/ultrassonico.png'
-import servo from './images/equipamentos/servo.png'
+import led from './images/equipamentos/ledd.png'
+import ultrassonico from './images/equipamentos/ultrassonicoo.png'
+import servo from './images/equipamentos/servoo.png'
 
 import pessoinha from './images/pessoinha.png'
 
