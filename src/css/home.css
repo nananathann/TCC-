@@ -664,8 +664,8 @@ gap: 1.125rem;
   .todosEquipamentos  {
   height: 26.5rem;
   display: flex;
-  margin: 7rem 6rem 0;
-  gap: 20rem;
+  margin: 7rem 10.5rem 0;
+  gap: 17rem;
   }
   
   .homeUltrassonico {
@@ -772,7 +772,7 @@ gap: 1.125rem;
     border: 0.3125rem solid #7F60F9;
     width: 314px;
     height: 73px;
-    margin:6rem 48.9rem;
+    margin:6rem 49.5rem;
   }
   
   #verEquipamentos {
@@ -788,11 +788,9 @@ gap: 1.125rem;
   
   .equipamentosLinha {
     background: #7F60F9;
-    width: 0.125rem;
-    height: 35rem;
-    margin-left: 22.25rem;
-    margin-right: 1.1875rem;
-    margin-top: -33rem;
+    width: 0.1875rem;
+    height: 75rem;
+    margin: -30rem 4.625rem;
   }
 
   .h1Projetos{

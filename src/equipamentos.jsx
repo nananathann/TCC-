@@ -1,11 +1,11 @@
 import './css/equipamentos.css'
 
 import segue from './images/equipamentos/segue.png'
-import servo from './images/equipamentos/servo.png'
+import servo from './images/equipamentos/servoo.png'
 import ponteH from './images/equipamentos/ponteH.png'
-import ultrassonico from './images/equipamentos/ultrassonico.png'
+import ultrassonico from './images/equipamentos/ultrassonicoo.png'
 import motor from './images/equipamentos/motor.png'
-import led from './images/equipamentos/led.png'
+import led from './images/equipamentos/ledd.png'
 
 import Header from './componentes/Header'
 import Sidebar from './componentes/Sidebar'
