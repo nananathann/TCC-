@@ -794,26 +794,26 @@ gap: 1.125rem;
   }
 
   .h1Projetos{
-    width: 11.6875rem;
-    height: 3.125rem;
-    margin: 15rem 2.125rem 0;
+    width: 380px;
+    height: 90px;
+    margin: 15rem 30rem 0;
     color: #7F60F9;
     font-family: Inter;
-    font-size: 3.125rem;
+    font-size: 100px;
   }
   
   .videoExemplo{
-    width: 19.125rem;
-    height: 13.375rem;
-    margin: 3.5rem 2rem 0;
+    width: 490px;
+    height: 742px;
+    margin: 8rem 70rem 0;
     border-radius: 0.875rem;
     background: #7E7E7E;
   }
   
   .pInteresse{
-    width: 19.125rem;
-    height: 13rem;
-    margin: 2.4375rem 2rem 0;
+    width: 28rem;
+    height: 18.6875rem;
+    margin: -22.4375rem 2rem 0;
     border-radius: 3.0625rem;
     border: 0.3125rem solid #40B2A0;
   }
@@ -851,6 +851,67 @@ gap: 1.125rem;
     height: 45rem;
     margin-top: -42rem;
     margin-left: 0.8125rem;
+  }
+  
+  .h1Bibliografia{
+    width: 13.8125rem;
+    height: 2.4375rem;
+    margin: 50rem 7.3125rem 0;
+    color: #7F60F9;
+    font-family: Inter;
+    font-size: 2.5rem;
+  }
+  
+  .imgPessoa{
+    width: 12.5rem;
+    height: 12.4375rem;
+    margin: 50.8125rem 1.625rem 0;
+  }
+  
+  .pSobreNos{
+    width: 16.625rem;
+    height: 11.25rem;
+    margin: 2.0625rem 4.625rem 0;
+    border-radius: 3.0625rem;
+    border: 0.3125rem solid #40B2A0;
+  }
+  
+  .pSobreNos p{
+    width: 13.125rem;
+    height: 9rem;
+    margin: 0.5rem 1.5rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.375rem;
+  }
+  
+  .verMaisBibliografia{
+    border-radius: 2.1875rem;
+    border: 0.3125rem solid #7F60F9;
+    height: 3.0625rem;
+    width: 8.5625rem;
+    margin: 1.7rem 7.4375rem;
+  }
+  
+  
+  #verBibliografia{
+    width: 6.875rem;
+    height: 1.625rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.6875rem;
+    margin-top: 0.2125rem;
+    margin-left: 0.4375rem;
+  }
+  
+  
+  .linhaBibliografia{
+    background: #7F60F9;
+    width: 0.125rem;
+    height: 37.5rem;
+    margin-left: 22.25rem;
+    margin-right: 1.1875rem;
+    margin-top: -39rem;
   }
   
 }
