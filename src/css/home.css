@@ -849,13 +849,16 @@ gap: 1.125rem;
   
   .projetoLinha{
     background: #7F60F9;
-
+    display: flex;
+    width: 0.1875rem;
+    height: 49rem;
+    margin: -60rem 115.625rem 12.6rem;
   }
   
   .h1Bibliografia{
     width: 13.8125rem;
     height: 2.4375rem;
-    margin: 50rem 7.3125rem 0;
+    margin: 0.1rem 7.3125rem 0;
     color: #7F60F9;
     font-family: Inter;
     font-size: 2.5rem;
@@ -864,7 +867,7 @@ gap: 1.125rem;
   .imgPessoa{
     width: 12.5rem;
     height: 12.4375rem;
-    margin: 500.8125rem 1.625rem 0;
+    margin: 1rem 1.625rem 0;
   }
   
   .pSobreNos{
