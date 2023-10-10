@@ -833,26 +833,23 @@ gap: 1.125rem;
   .verMaisProjeto{
     border-radius: 2.1875rem;
     border: 0.3125rem solid #7F60F9;
-    height: 3.0625rem;
-    width: 8.5625rem;
-    margin:55rem 7.4375rem;
+    width: 240px;
+    height: 73px;
+    margin:6rem 17rem 2rem;
   }
   
   #verProjeto {
-    width: 6.875rem;
-    height: 1.625rem;
+    width: 170px;
+    height: 58px;
     text-align: center;
     font-family: Inter;
-    font-size: 1.6875rem;
-    margin-top: 0.2125rem;
-    margin-left: 0.4375rem;
+    font-size: 45px;
+    margin:0.2rem 1.75rem;
   }
   
   .projetoLinha{
     background: #7F60F9;
-    width: 0.1875rem;
-    height: 65rem;
-    margin: -160rem 115.625rem 0;
+
   }
   
   .h1Bibliografia{
