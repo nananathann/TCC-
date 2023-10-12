@@ -107,7 +107,6 @@
   }
   
   #inici {
-  
     color: #000;
     font-family: Inter;
     font-size: 28px;
@@ -116,7 +115,6 @@
     line-height: 1.875rem;
     margin-top: 0.4375rem;
     margin-left: -4.875rem;
-  /*  text-decoration: none;*/
     background: none;
   }
   
@@ -291,12 +289,10 @@
 
 
   @media only screen and (min-width: 900px) {
-
     .mobile {
       display: none;
     }
 
-    
     .desktop {
       display: flex;
       position: fixed;
@@ -314,8 +310,7 @@
       height: 45px;
       margin: 14px 20px 0;
       background: #dfdfdf;
-    }
-
+     }
     
     .desktop .Ditens {
       display: flex;
@@ -333,45 +328,58 @@
   
     }
     
-    
     .desktop #Dinici {
       background: none;
       font-size: 30px;
     }
+
+    .desktop #Dinici:hover {
+      transform: scale(1.2);
+      transition: transform .3s;
+  }
     
     .desktop .Dsobre {
       background: #dfdfdf;
       
     }
 
-    
     .desktop #Dsobr {
       background: #dfdfdf;
       font-size: 30px;
-
     }
 
-    
-    
+    .desktop #Dsobr:hover {
+      transform: scale(1.2);
+      transition: transform .3s;
+  }
+
     .desktop .Dobjetivos {
       background: #dfdfdf;
     }
+
     .desktop #Dobjetiv {
       background: #dfdfdf;
       font-size: 30px;
     }
     
-
+    .desktop #Dobjetiv:hover {
+      transform: scale(1.2);
+      transition: transform .3s;
+  }
 
     .desktop .Dequipamentos {
       background: #dfdfdf;
     }
+    
     .desktop #Dequipament {
       background: #dfdfdf;
       font-size: 30px;
     }
 
-
+    .desktop #Dequipament:hover {
+      transform: scale(1.2);
+      transition: transform .3s;
+    }
     
     .desktop .Dprojeto {
       background: #dfdfdf;
@@ -382,18 +390,25 @@
       word-wrap: break-word;
     }
 
+    .desktop #Dprojet:hover {
+      transform: scale(1.2);
+      transition: transform .3s;
+    }
 
-
-    
     .desktop .Dbibliografia {
       background: #dfdfdf;
     }
-    
-
+  
     .desktop #Dbibliografias {
       background: #dfdfdf;
       font-size:30px;
       word-wrap: break-word;
     }
+
+    .desktop #Dbibliografias:hover {
+      transform: scale(1.2);
+      transition: transform .3s;
+  }
+  
   }
   
