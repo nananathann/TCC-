@@ -74,6 +74,7 @@
 
 a {
   display: flex;
+  color: #000;
   justify-content: center;
   font-family: Inter;
   font-size: 0.9375rem;
@@ -180,11 +181,11 @@ a {
   height: 3.0625rem;
   width: 8.5625rem;
   margin-top: 2.6875rem;
-  margin-left: 7.4375rem;
+  margin-left: 6.2rem;
 }
 
 #verSobre {
-  width: 6.875rem;
+  width: 6rem;
   height: 1.625rem;
   text-align: center;
   font-family: Inter;
@@ -193,7 +194,7 @@ a {
   font-weight: 400;
   line-height: normal;
   margin-top: 0.2125rem;
-  margin-left: 0.4375rem;
+  margin-left: 0.88rem;
 }
 
 .barraSobre {
@@ -417,7 +418,7 @@ gap: 1.125rem;
   margin-left: 0.8125rem;
 }
 
-.h1Bibliografia{
+.h1Bibliografiaa{
   width: 13.8125rem;
   height: 2.4375rem;
   margin: 5.1875rem 7.3125rem 0;
@@ -797,17 +798,17 @@ gap: 1.125rem;
   }
 
   .h1Projetos{
-    width: 380px;
-    height: 90px;
+    width: 23.75rem;
+    height: 5.625rem;
     margin: 15rem 30rem 0;
     color: #7F60F9;
     font-family: Inter;
-    font-size: 100px;
+    font-size: 6.25rem;
   }
   
   .videoExemplo{
-    width: 490px;
-    height: 742px;
+    width: 30.625rem;
+    height: 46.375rem;
     margin: 8rem 70rem 0;
     border-radius: 0.875rem;
     background: #7E7E7E;
@@ -822,8 +823,8 @@ gap: 1.125rem;
   }
   
   .pInteresse p{
-    width: 550px;
-    height: 263px;
+    width: 34.375rem;
+    height: 16.4375rem;
     margin: 0.6rem 1.4rem 0;
     text-align: center;
     font-family: Inter;
@@ -833,17 +834,17 @@ gap: 1.125rem;
   .verMaisProjeto{
     border-radius: 2.1875rem;
     border: 0.3125rem solid #7F60F9;
-    width: 240px;
-    height: 73px;
+    width: 15rem;
+    height: 4.5625rem;
     margin:6rem 17rem 2rem;
   }
   
   #verProjeto {
-    width: 170px;
-    height: 58px;
+    width: 10.625rem;
+    height: 3.625rem;
     text-align: center;
     font-family: Inter;
-    font-size: 45px;
+    font-size: 2.8125rem;
     margin:0.2rem 1.75rem;
   }
   
@@ -855,63 +856,60 @@ gap: 1.125rem;
     margin: -60rem 115.625rem 12.6rem;
   }
   
-  .h1Bibliografia{
-    width: 13.8125rem;
-    height: 2.4375rem;
-    margin: 0.1rem 7.3125rem 0;
+  .h1Bibliografiaa{
+    width: 35rem;
     color: #7F60F9;
     font-family: Inter;
-    font-size: 2.5rem;
+    font-size: 6.6875rem;
+    margin: 9rem 21rem 0;
   }
   
   .imgPessoa{
-    width: 12.5rem;
-    height: 12.4375rem;
-    margin: 1rem 1.625rem 0;
+    width: 33.375rem;
+    height: 34.125rem;
+    margin: 10rem 12rem 0;
   }
   
   .pSobreNos{
-    width: 16.625rem;
-    height: 11.25rem;
-    margin: 2.0625rem 4.625rem 0;
+    width: 48rem;
+    height: 22rem;
+    margin: -34rem 59rem 0;
     border-radius: 3.0625rem;
     border: 0.3125rem solid #40B2A0;
   }
   
   .pSobreNos p{
-    width: 13.125rem;
-    height: 9rem;
-    margin: 0.5rem 1.5rem;
-    text-align: center;
+    width: 45rem;
+    height: 18rem;
+    margin: 0.5rem 1.1rem;
     font-family: Inter;
-    font-size: 1.375rem;
+    font-size: 3.6rem;
   }
   
   .verMaisBibliografia{
     border-radius: 2.1875rem;
     border: 0.3125rem solid #7F60F9;
-    height: 3.0625rem;
-    width: 8.5625rem;
-    margin: 1.7rem 7.4375rem;
+    width: 15rem;
+    height: 4.5625rem;
+    margin: 6rem 75.6rem 0;
   }
   
   
   #verBibliografia{
-    width: 6.875rem;
-    height: 1.625rem;
+    width: 11rem;
+    height: 3.625rem;
     text-align: center;
     font-family: Inter;
-    font-size: 1.6875rem;
-    margin-top: 0.2125rem;
-    margin-left: 0.4375rem;
+    font-size: 2.8125rem;
+    margin: 0.3rem  1.5rem 0;
   }
   
   
   .linhaBibliografia{
     background: #7F60F9;
     width: 0.1875rem;
-    height: 75rem;
-    margin: -30rem 4.625rem;
+    height: 62rem;
+    margin: -62rem 4.625rem;
   }
   
 }

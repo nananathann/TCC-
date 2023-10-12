@@ -1,10 +1,10 @@
 import './css/equipamentos.css'
 
-import segue from './images/equipamentos/segue.png'
+import segue from './images/equipamentos/segue-linha.png'
 import servo from './images/equipamentos/servoo.png'
-import ponteH from './images/equipamentos/ponteH.png'
+import ponteH from './images/equipamentos/pontesH.png'
 import ultrassonico from './images/equipamentos/ultrassonicoo.png'
-import motor from './images/equipamentos/motor.png'
+import motor from './images/equipamentos/motores.png'
 import led from './images/equipamentos/ledd.png'
 
 import Header from './componentes/Header'
@@ -72,6 +72,11 @@ return (
                 <h2>Led Difuso
                     5mm</h2>
                 <h3>R$ 0,50</h3>
+            </div>
+
+            <div className="linhaszinhas">
+            <div className="linhazinhaDeitada"></div>
+            <div className="linhazinhaDeitada2"></div>
             </div>
 
             </div>

@@ -10,7 +10,7 @@ import led from './images/equipamentos/ledd.png'
 import ultrassonico from './images/equipamentos/ultrassonicoo.png'
 import servo from './images/equipamentos/servoo.png'
 
-import pessoinha from './images/pessoinha.png'
+import pessoinha from './images/pessoinhaa.png'
 
 
 import carroex from './images/carroEx.png'
@@ -149,7 +149,7 @@ function App() {
 
       <div className="PaginaBibliografia">
 
-        <h1 className="h1Bibliografia">Bibliografia</h1>
+        <h1 className="h1Bibliografiaa">Bibliografia</h1>
 
         <img src={pessoinha} alt="pessoa tendo uma ideia" className="imgPessoa" />
 
