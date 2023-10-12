@@ -29,7 +29,7 @@ return (
     </div>
 
     <div className="linhaBiblio"></div>
-    <div className="linhaBiblio2"></div>
+    
 
     <img src={link} alt="imagem de um simbolizador de links" id='imgLink' />
 
@@ -53,6 +53,7 @@ return (
             <li>https://www.youtube.com/watch?v=82zbSgUhJdE</li>
         </ul>
     </div>
+    <div className="linhaBiblio2"></div>
 
 
     </main>
