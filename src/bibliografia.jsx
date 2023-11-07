@@ -1,8 +1,8 @@
 import './css/bibliografia.css'
 import link from './images/Link.png'
 
-import Header from './componentes/Header'
-import Sidebar from './componentes/Sidebar'
+import Header from './componentes/Header.jsx'
+import Sidebar from './componentes/Sidebar.jsx'
 
 
 function Bibliografia () {

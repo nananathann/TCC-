@@ -1,8 +1,8 @@
 
 import './css/projeto.css'
 
-import Header from './componentes/Header'
-import Sidebar from './componentes/Sidebar'
+import Header from './componentes/Header.jsx'
+import Sidebar from './componentes/Sidebar.jsx'
 
 import FTcarrinho from './images/FTcarrinho.jpg'
 import FTcarrinho2 from './images/FTcarrinho2.jpg'
