@@ -1,5 +1,5 @@
 import './css/sobre.css'
-import carrinho from './images/CarrinhoFeito.png'
+import carrinho from './images/CarrinhoFeitoo.png'
 
 import Header from './componentes/header.jsx'
 import Sidebar from './componentes/sidebar.jsx'
