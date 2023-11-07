@@ -1,8 +1,8 @@
 import './css/sobre.css'
 import carrinho from './images/carrinhofeito.png'
 
-import Header from './componentes/Header.jsx'
-import Sidebar from './componentes/Sidebar.jsx'
+import Header from './componentes/header.jsx'
+import Sidebar from './componentes/sidebar.jsx'
 
 
 function Sobre() {

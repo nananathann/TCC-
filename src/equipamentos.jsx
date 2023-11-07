@@ -7,8 +7,8 @@ import ultrassonico from './images/equipamentos/ultrassonicoo.png'
 import motor from './images/equipamentos/motores.png'
 import led from './images/equipamentos/ledd.png'
 
-import Header from './componentes/Header.jsx'
-import Sidebar from './componentes/Sidebar.jsx'
+import Header from './componentes/header.jsx'
+import Sidebar from './componentes/sidebar.jsx'
 
 function Equipamentos () {
 return (
