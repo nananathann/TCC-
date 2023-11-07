@@ -8,14 +8,14 @@ import Sidebar from './componentes/sidebar.jsx'
 
 import led from './images/equipamentos/Ledd.png'
 import ultrassonico from './images/equipamentos/ultrassonicoo.png'
-import servo from './images/equipamentos/servoo.png'
+import servo from './images/equipamentos/Servoo.png'
 
 import FTcarrinho from './images/FTcarrinho.jpg'
 
 import pessoinha from './images/pessoinhaa.png'
 
 
-import carroex from './images/carroEx.png'
+import carroex from './images/carroex.png'
 
 
 function App() {
