@@ -1,6 +1,6 @@
 import './css/objetivos.css'
 import bonecos from './images/bonecoss.png'
-import robocolorido from './images/RoboColorido.png'
+import robocolorido from './images/RoboColoridoo.png'
 
 import Header from './componentes/header.jsx'
 import Sidebar from './componentes/sidebar.jsx'
