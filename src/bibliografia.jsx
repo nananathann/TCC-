@@ -1,5 +1,5 @@
 import './css/bibliografia.css'
-import link from './images/Link.png'
+import link from './images/Linkk.png'
 
 import Header from './componentes/header.jsx'
 import Sidebar from './componentes/sidebar.jsx'
