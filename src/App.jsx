@@ -6,7 +6,7 @@ import robo from './images/robo-12.png'
 import Header from './componentes/header.jsx'
 import Sidebar from './componentes/sidebar.jsx'
 
-import led from './images/equipamentos/ledd.png'
+import led from './images/equipamentos/Ledd.png'
 import ultrassonico from './images/equipamentos/ultrassonicoo.png'
 import servo from './images/equipamentos/servoo.png'
 
