@@ -3,7 +3,6 @@ import './css/home.css'
 import robokids from './images/robokids.png'
 import robo from './images/robo-12.png'
 
-import header from './componentes/Header'
 
 import Sidebar from './componentes/Sidebar'
 
@@ -24,6 +23,7 @@ function App() {
   return (
     <>
     <header />
+    
     <body>
 
       <Sidebar />
