@@ -80,46 +80,46 @@
 
 .videos {
   display: flex;
+  margin-top: -6rem;
 }
   
   .video1 {
     width: 350px;
     height: 700px;
-    margin: 120px 730px 0;
+    margin: 180px 760px 0;
     border-radius: 0.9375rem;
   }
+
   
   .video2 {
     width: 219px;
     height: 570px;
-      margin: 200px -620px;
+      margin: 200px -605px;
       border-radius: 0.9375rem;
-      background: #7E7E7E;
   }
   
   .video3 {
     width: 219px;
     height: 570px;
-    margin: 200px -480px;
+    margin: 200px -600px;
     border-radius: 0.9375rem;
-    background: #7E7E7E;
   }
 
-  .FTcarrinhoProjeto {
-    width: 310px;
-    height: 570px;
+  .video1 img{
+    width: 380px;
+    height: 720px;
     border-radius: 0.9375rem;
   }
   
-  .FTcarrinhoProjeto2 {
-    width: 310px;
+  .video2 img {
+    width: 370px;
     height: 600px;
     border-radius: 0.9375rem;
   }
   
-  .FTcarrinhoProjeto3 {
-    width: 310px;
-    height: 800px;
+  .video3 img {
+    width: 370px;
+    height: 600px;
     border-radius: 0.9375rem;
   }
   
