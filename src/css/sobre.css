@@ -15,26 +15,26 @@
 
 .p1{
   width: 16.8125rem;
-  height: 18.9375rem;
+  height: 19rem;
   border-radius: 2.3125rem;
   border: 0.1875rem solid #40B2A0;
   margin: 2.375rem 2.8125rem;
 }
 
 .p1 p{
-  width: 13.75rem;
+  width: 15rem;
   height: 9.625rem;
-  margin: 1.125rem 1.25rem;
+  margin: 1.125rem .8rem;
   text-align: center;
   font-family: Inter;
-  font-size: 1.1875rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
 .carro{
   width: 16.8125rem;
   height: 13.875rem;
-  margin: -27rem 2.8125rem;
+  margin: -26.9rem 2.8125rem;
 }
 
 .imgCarrinho {
@@ -54,10 +54,10 @@
 .p2 p{
   width: 14.1875rem;
   height: 9.3125rem;
-  margin: 1.125rem 1.125rem;
+  margin: 1.6rem 1.125rem;
   text-align: center;
   font-family: Inter;
-  font-size: 1.1875rem;
+  font-size: 1.15rem;
 }
 
 @media only screen and (min-width: 900px) {
