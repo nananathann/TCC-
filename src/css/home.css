@@ -23,6 +23,8 @@
 .mainHome {
   display: flex;
   flex-direction: column;
+  margin-inline: auto;
+  width: 353px;
 }
 
 .LogoInicial {
@@ -50,13 +52,15 @@
   margin-left: 1.1875rem;
   font-family: Inter;
   font-size: 0.625rem;
-  width: 11.4375rem;
+
   height: 0.6875rem;
 }
 
 #linkk {
   width: 3.5625rem;
   margin-left: 0.4688rem;
+  background: #7F60F9;
+  color: white;
 }
 
 .linkinho {
@@ -65,6 +69,8 @@
   height: 1.5625rem;
   width: 4.9375rem;
   margin-top: 1.4688rem;
+  background: #7F60F9;
+  
   margin-left: 2.0625rem;
 }
 
