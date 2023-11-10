@@ -1,9 +1,9 @@
 import './css/objetivos.css'
 import bonecos from './images/bonecoss.png'
-import robocolorido from './images/roboColorido.png'
+import robocolorido from './images/RoboColoridoo.png'
 
-import Header from './componentes/Header'
-import Sidebar from './componentes/Sidebar'
+import Header from './componentes/header.jsx'
+import Sidebar from './componentes/sidebar.jsx'
 
 function Objetivos() {
 

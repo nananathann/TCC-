@@ -11,7 +11,7 @@
     position: fixed;
     top: 0.4125rem;
     left: 1rem;
-    z-index: 1;
+    z-index: 10;
   }
   
   .hamburguer {
@@ -64,8 +64,8 @@
   
   .barra {
     background-color: #dfdfdf;
-    border-radius: 0 2.5rem 2.5rem 0;
-    height: 100%;
+    border-radius: 0 2.8rem 2.8rem 0;
+    height: 100vh;
     width: 18.75rem;
     position: fixed;
     transition: all .2s linear;

@@ -1,14 +1,14 @@
 import './css/equipamentos.css'
 
 import segue from './images/equipamentos/segue-linha.png'
-import servo from './images/equipamentos/servoo.png'
+import servo from './images/equipamentos/Servoo.png'
 import ponteH from './images/equipamentos/pontesH.png'
 import ultrassonico from './images/equipamentos/ultrassonicoo.png'
 import motor from './images/equipamentos/motores.png'
-import led from './images/equipamentos/ledd.png'
+import led from './images/equipamentos/Ledd.png'
 
-import Header from './componentes/Header'
-import Sidebar from './componentes/Sidebar'
+import Header from './componentes/header.jsx'
+import Sidebar from './componentes/sidebar.jsx'
 
 function Equipamentos () {
 return (

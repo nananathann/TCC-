@@ -3,17 +3,19 @@ import './css/home.css'
 import robokids from './images/robokids.png'
 import robo from './images/robo-12.png'
 
-import Header from './componentes/Header'
-import Sidebar from './componentes/Sidebar'
+import Header from './componentes/header.jsx'
+import Sidebar from './componentes/sidebar.jsx'
 
-import led from './images/equipamentos/ledd.png'
+import led from './images/equipamentos/Ledd.png'
 import ultrassonico from './images/equipamentos/ultrassonicoo.png'
-import servo from './images/equipamentos/servoo.png'
+import servo from './images/equipamentos/Servoo.png'
+
+import FTcarrinho from './images/FTcarrinho.jpg'
 
 import pessoinha from './images/pessoinhaa.png'
 
 
-import carroex from './images/carroEx.png'
+import carroex from './images/carroex.png'
 
 
 function App() {
@@ -21,11 +23,15 @@ function App() {
   return (
     <>
     <Header />
+    
     <body>
 
       <Sidebar />
 
     <main className='mainHome'>
+
+    
+
     <div className="barra1"></div>
     
     <div className="LogoInicial">
@@ -131,7 +137,9 @@ function App() {
 
         <h1 className="h1Projetos">Projeto</h1>
 
-        <div className="videoExemplo"></div>
+        <div className="videoExemplo">
+          <img className="FTcarrinhoo" src={FTcarrinho} alt="foto do carrinho feito, completo" />
+        </div>
 
         <div className="pInteresse">
           <p>Caso você esteja interessado em saber mais sobre nosso projeto, aqui nos temos alguns vídeos de demonstração de funcionamento do nosso projeto.
@@ -164,8 +172,6 @@ function App() {
       <div className="linhaBibliografia"></div>
 
       </div>
-
-
 
       </main>
 
