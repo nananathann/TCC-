@@ -4,6 +4,7 @@ header {
     margin-left: 14px;
     margin-right: 18px;
     z-index: 3;
+    margin-inline: end;
   
   }
 

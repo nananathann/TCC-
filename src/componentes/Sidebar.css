@@ -3,6 +3,10 @@
   display: none;
 }
 
+.mobile {
+  margin-inline: auto;
+}
+
 .menu {
     border-radius: 50%;
     background: #dfdfdf;
@@ -303,6 +307,7 @@
       width: 98%;
       top: 0%;
       margin: 15px 20px 0 20px;
+      padding-inline: auto;
     }
 
      #Dimg{
