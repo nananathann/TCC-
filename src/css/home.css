@@ -48,11 +48,13 @@
 
 .mainHome .sectionHome{
   color: #000;
+  border: #7F60F9;
+  display: flex;
   margin-top: -4.5rem;
   margin-left: 1.1875rem;
   font-family: Inter;
   font-size: 0.625rem;
-
+  width: 11.5rem;
   height: 0.6875rem;
 }
 
@@ -60,7 +62,7 @@
   width: 3.5625rem;
   margin-left: 0.4688rem;
   background: #7F60F9;
-  color: white;
+  color: #CCCCCC;
 }
 
 .linkinho {
@@ -80,7 +82,8 @@
 
 a {
   display: flex;
-  color: #000;
+  color: #CCCCCC;
+  background: #7F60F9;
   justify-content: center;
   font-family: Inter;
   font-size: 0.9375rem;
@@ -101,7 +104,7 @@ a {
 }
 
 .publico {
-  border: 0.1875rem solid #7F60F9;
+  background: #7F60F9;
   background: rgba(217, 217, 217, 0.00);
   width: 11.4375rem;
   height: 12rem;
@@ -155,18 +158,20 @@ a {
 }
 
 #sobreP {
+  display: flex;
   border:0.25rem solid #40b2a0;
   border-radius: 3.0625rem;
   width: 14.8125rem;
-  height: 10.5rem;
+  height: 12.5rem;
   margin-top: 2.5rem;
   margin-left: 2.3125rem;
 }
 
 #sobreP p{
+  display: flex;
   color: #000;
-  border-radius: 1.25rem;
-  margin-top: 0.4375rem;
+  border-radius: 3rem;
+  margin-top: 0.7rem;
   margin-left: 0.75rem;
   width: 12.8125rem;
   text-align: center;
@@ -184,6 +189,7 @@ a {
 .verMais {
   border-radius: 2.1875rem;
   border: 0.3125rem solid #7F60F9;
+  background: #7F60F9;
   height: 3.0625rem;
   width: 10rem;
   margin-top: 2.6875rem;
@@ -238,30 +244,30 @@ gap: 1.125rem;
 }
 
 .homeUltrassonico {
-  width: 5.625rem;
+  display: flex;
+  flex-direction: column;
+  width: 5.7rem;
   height: 15rem;
   border-radius: 1.25rem;
   background: #FFF;
-
 }
-
 .homeUltrassonico img {
   width: 5rem;
   height: 3rem;
   margin-top: 1.9375rem;
-  margin-left: 0.3125rem;
+  margin-left: 0.34rem;
 }
-
 .homeUltrassonico h2{
+  display: flex;
   color: #40B2A0;
   width: 5rem;
-  margin-top: 1.375rem;
-  margin-left: 0.3125rem;
+  margin: 1.375rem 0.6rem 0 0.35rem;
   text-align: center;
   font-family: Inter;
   font-size: 0.8125rem;
   background: #FFF;
 }
+
 
 .homeUltrassonico p {
   color: #000;
@@ -338,11 +344,13 @@ gap: 1.125rem;
 }
 
 .verMaisEquipamentos {
+  display: flex;
   border-radius: 2.1875rem;
   border: 0.3125rem solid #7F60F9;
+  background: #7F60F9;
   height: 3.0625rem;
   width: 8.5625rem;
-  margin:0.9375rem 7.4375rem;
+  margin:0.9375rem 6.1rem;
 }
 
 #verEquipamentos {
@@ -374,21 +382,22 @@ gap: 1.125rem;
 }
 
 .videoExemplo{
-  margin: 1.6rem 2rem 7rem;
+  margin: 3rem 2rem 0;
   border-radius: 0.875rem;
-  background: #7E7E7E;
 }
 
 .FTcarrinhoo {
-  width: 20rem;
-  height: 18rem;
+  width: 19rem;
+  height: 23rem;
   border-radius: 0.875rem;
 }
 
 .pInteresse{
+  display: flex;
+  flex-direction: column;
   width: 19.125rem;
-  height: 13rem;
-  margin: 2.4375rem 2rem 0;
+  height: 15rem;
+  margin: 2rem 2rem 0;
   border-radius: 3.0625rem;
   border: 0.3125rem solid #40B2A0;
 }
@@ -405,6 +414,7 @@ gap: 1.125rem;
 .verMaisProjeto{
   border-radius: 2.1875rem;
   border: 0.3125rem solid #7F60F9;
+  background: #7F60F9;
   height: 3.0625rem;
   width: 8.5625rem;
   margin:0.9375rem 7.4375rem;
@@ -424,7 +434,7 @@ gap: 1.125rem;
   background: #7F60F9;
   width: 0.125rem;
   height: 45rem;
-  margin-top: -42rem;
+  margin-top: -44.8rem;
   margin-left: 0.8125rem;
 }
 
@@ -444,8 +454,9 @@ gap: 1.125rem;
 }
 
 .pSobreNos{
+  display: flex;
   width: 16.625rem;
-  height: 11.25rem;
+  height: 10.4rem;
   margin: 2.0625rem 4.625rem 0;
   border-radius: 3.0625rem;
   border: 0.3125rem solid #40B2A0;
@@ -463,6 +474,7 @@ gap: 1.125rem;
 .verMaisBibliografia{
   border-radius: 2.1875rem;
   border: 0.3125rem solid #7F60F9;
+  background: #7F60F9;
   height: 3.0625rem;
   width: 8.5625rem;
   margin: 1.7rem 7.4375rem;
