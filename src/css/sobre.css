@@ -74,7 +74,7 @@
   
   .p1{
     width: 19.75rem;
-    height: 29rem;
+    height: 29.5rem;
     border-radius: 3.0625rem;
     border: 0.3125rem solid #7F60F9;
     margin: 8rem 80rem 0;
@@ -82,13 +82,13 @@
   
   .p1 p{
     width: 17.1875rem;
-    height: 23.75rem;
+    height: 23rem;
     border-radius: 1.25rem;
     margin: 0.5rem 1.25rem;
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 2.0625rem;
+    font-size: 1.72rem;
   }
   
   .carro{
@@ -104,7 +104,7 @@
   
   .p2{
     width: 58.25rem;
-    height: 8.4375rem;
+    height: 9rem;
     margin: 7rem 29rem ;
     border-radius: 3.0625rem;
     border: 0.3125rem solid #40B2A0;
@@ -117,7 +117,7 @@
     color: #000;
     text-align: center;
     font-family: Inter;
-    font-size: 1.9375rem;
+    font-size: 1.7rem;
   }
 
   .linhaSobre {

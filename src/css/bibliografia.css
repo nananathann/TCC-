@@ -114,7 +114,7 @@ li {
     
   .paragrafo {
     width: 54.625rem;
-    height: 7.6875rem;
+    height: 8.7rem;
     margin: 6rem 6rem 0;
     border-radius: 1.5625rem;
     border: 0.3125rem solid #40B2A0;
@@ -132,7 +132,7 @@ li {
   
   .paragrafo2{
     width: 64.0625rem;
-    height: 6.3125rem;
+    height: 8.5rem;
     margin: 3rem 45rem;
     border-radius: 1.5625rem;
     border: 0.3125rem solid #40B2A0;
@@ -166,8 +166,8 @@ li {
   
   .links {
     width: 35.5625rem;
-    height: 27.8125rem;
-    margin: -27rem 8.5625rem;
+    height: 34rem;
+    margin: -28.5rem 8.5625rem;
     border-radius: 1.875rem;
     border: 0.3125rem solid #7F60F9;
   }
@@ -188,7 +188,7 @@ li {
   #imgLink {
     width: 23.75rem;
     height: 23.75rem;
-    margin: -5rem 70rem 0;
+    margin: -3rem 70rem 0;
     
   }
 

@@ -307,7 +307,6 @@
       width: 98%;
       top: 0%;
       margin: 15px 20px 0 20px;
-      padding-inline: auto;
     }
 
      #Dimg{
@@ -319,13 +318,12 @@
     
     .desktop .Ditens {
       display: flex;
-      width: 9%;
+      width: 90%;
       background: #dfdfdf;
-      gap: 170px;
+      gap: 8.5%;
       margin: 20px 65px 20px;
       font-family: Inter;
       font-weight: 600;
-      max-width: min-content;
     }
     
     .desktop .Dinicio {
@@ -339,7 +337,7 @@
     }
 
     .desktop #Dinici:hover {
-      transform: scale(1.2);
+      transform: scale(1.4);
       transition: transform .3s;
   }
     
@@ -354,7 +352,7 @@
     }
 
     .desktop #Dsobr:hover {
-      transform: scale(1.2);
+      transform: scale(1.4);
       transition: transform .3s;
   }
 
@@ -368,7 +366,7 @@
     }
     
     .desktop #Dobjetiv:hover {
-      transform: scale(1.2);
+      transform: scale(1.4);
       transition: transform .3s;
   }
 
@@ -382,7 +380,7 @@
     }
 
     .desktop #Dequipament:hover {
-      transform: scale(1.2);
+      transform: scale(1.4);
       transition: transform .3s;
     }
     
@@ -396,7 +394,7 @@
     }
 
     .desktop #Dprojet:hover {
-      transform: scale(1.2);
+      transform: scale(1.4);
       transition: transform .3s;
     }
 
@@ -411,7 +409,7 @@
     }
 
     .desktop #Dbibliografias:hover {
-      transform: scale(1.2);
+      transform: scale(1.4);
       transition: transform .3s;
   }
   

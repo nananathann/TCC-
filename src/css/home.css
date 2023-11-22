@@ -517,7 +517,7 @@ gap: 1.125rem;
     display: flex;
     flex-direction: column;
     width: 353px;
-    margin-inline-start: .01rem;
+    margin-inline: .01rem;
   }
 
   #Logo-Inicial {
@@ -547,20 +547,34 @@ gap: 1.125rem;
 
   #linkk {
     width: 12.5rem;
-    text-align: center;
+    background: #7F60F9;
+    text-align: center; 
     font-family: Inter;
     font-size: 3.125rem;
-    margin: 0.02rem 1.5rem;
+    margin: 0.04rem 1.5rem;
   }
   
   .linkinho {
     border-radius: 2.5rem;
     border: 0.1875rem solid #7F60F9;
+    background: #7F60F9;
     width: 15.8125rem;
-    height: 4.1875rem;
+    height: 4.3rem;
     margin-top: 3.5rem;
     margin-left: 10.3rem;
   }
+
+  #linkk:hover {
+    cursor: pointer;
+    background: #CCCCCC;
+    color: #7F60F9;
+  }
+
+  .linkinho:hover {
+    cursor: pointer;
+    background: #CCCCCC;
+  }
+
   
   a {
     font-family: Inter;
@@ -663,6 +677,10 @@ gap: 1.125rem;
     height: 4.6875rem;
     margin: 117rem 50rem 0;
   }
+  .verMais:hover {
+    background: #CCCCCC;
+    cursor: pointer;
+  }
   
   #verSobre {
     width: 12rem;
@@ -672,6 +690,12 @@ gap: 1.125rem;
     text-align: center;
     font-family: Inter;
     font-size: 2.8125rem;
+  }
+
+  #verSobre:hover {
+    background: #CCCCCC;
+    color: #7F60F9;
+    cursor: pointer;
   }
   
   .barraSobre {
@@ -812,17 +836,28 @@ gap: 1.125rem;
     height: 4.8rem;
     margin:6rem 51.5rem;
   }
+
+  .verMaisEquipamentos:hover {
+    background: #CCCCCC;
+    cursor: pointer;
+  }
   
   #verEquipamentos {
     width: 200rem;
     color: #CCCCCC;
-    height: 1rem;
+    height: 4rem;
     margin: 0.1rem 1.5rem;
     line-height: 60px;
     text-align: center;
     font-family: Inter;
     font-size: 44px;
 
+  }
+
+  #verEquipamentos:hover {
+    color: #7F60F9;
+    background: #CCCCCC;
+    cursor: pointer;
   }
   
   .equipamentosLinha {
@@ -878,15 +913,27 @@ gap: 1.125rem;
     height: 4.5625rem;
     margin:6rem 17rem 2rem;
   }
+
+  .verMaisProjeto:hover{
+   background: #CCCCCC;
+   cursor: pointer;
+  }
   
   #verProjeto {
     width: 10.625rem;
     color: #CCCCCC;
-    height: 3.625rem;
+    height: 3.3rem;
     text-align: center;
     font-family: Inter;
     font-size: 2.6rem;
     margin:0.5rem 1.7rem;
+  }
+
+  #verProjeto:hover {
+    background: #CCCCCC;
+    color: #7F60F9;
+    cursor: pointer;
+    
   }
   
   .projetoLinha{
@@ -934,16 +981,26 @@ gap: 1.125rem;
     height: 4.5625rem;
     margin: 3.5rem 75.6rem 0;
   }
+
+  .verMaisBibliografia:hover{
+    background: #CCCCCC;
+  }
   
   
   #verBibliografia{
     width: 11rem;
     color: #CCCCCC;
-    height: 3.625rem;
+    height: 3.35rem;
     text-align: center;
     font-family: Inter;
     font-size: 2.6rem;
     margin: 0.45rem  1.5rem 0;
+  }
+
+  #verBibliografia:hover{
+    color: #7F60F9;
+    background: #CCCCCC;
+    cursor: pointer;
   }
   
   
