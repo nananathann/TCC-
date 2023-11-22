@@ -2,6 +2,10 @@
   background: #ccc;
 }
 
+.mainSobre {
+  margin-inline: auto;
+}
+
 .mainSobre h1{
   color: #7F60F9;
   display: flex;
@@ -24,7 +28,7 @@
 .p1 p{
   width: 15rem;
   height: 9.625rem;
-  margin: 1.125rem .8rem;
+  margin: .9rem .8rem;
   text-align: center;
   font-family: Inter;
   font-size: 1.1rem;
@@ -34,7 +38,7 @@
 .carro{
   width: 16.8125rem;
   height: 13.875rem;
-  margin: -26.9rem 2.8125rem;
+  margin: -29.6rem 2.8125rem;
 }
 
 .imgCarrinho {
@@ -44,7 +48,7 @@
 
 .p2{
   width: 16.8125rem;
-  height: 13.75rem;
+  height: 17rem;
   margin: 2.8125rem 2.8125rem;
   padding-top: 2.1875rem;
   border-radius: 2.3125rem;

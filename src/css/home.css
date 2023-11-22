@@ -65,6 +65,8 @@
   color: #CCCCCC;
 }
 
+
+
 .linkinho {
   border-radius: 2.5rem;
   border: 0.1875rem solid #7F60F9;
@@ -74,10 +76,6 @@
   background: #7F60F9;
   
   margin-left: 2.0625rem;
-}
-
-.linkinho:hover {
-  cursor: pointer;
 }
 
 a {

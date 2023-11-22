@@ -35,20 +35,19 @@
 .video2 img{
   margin-top: 2.1rem;
   width: 10.625rem;
-  height: 11.0625rem;
+  height: 16rem;
 }
 
 .video3 {
   width: 10.625rem;
   height: 11.0625rem;
   margin: -11.05rem 11.8rem;
-  flex-shrink: 0;
   border-radius: 0.9375rem;
 }
 .video3 img{
   margin-top: 2.1rem;
-  width: 10.625rem;
-  height: 11.0625rem;
+  width: 10.7rem;
+  height: 16rem;
 }
 
 .FTcarrinhoProjeto {
